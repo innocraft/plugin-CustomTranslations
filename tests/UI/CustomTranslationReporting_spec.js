@@ -9,7 +9,10 @@ describe("CustomTranslationReporting", function () {
     this.timeout(0);
 
     this.fixture = "Piwik\\Plugins\\CustomTranslations\\tests\\Fixtures\\CustomTranslationsFixture";
-
+    this.optionsOverride = {
+        'persist-fixture-data': false
+    };
+    
     var fs = require('fs');
     var customReportsPath = PIWIK_INCLUDE_PATH + '/plugins/CustomReports/CustomReports.php';
     var hasCustomReports = fs.exists(customReportsPath);
