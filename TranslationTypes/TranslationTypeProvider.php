@@ -48,7 +48,7 @@ class TranslationTypeProvider
                 $this->instances[$type->getId()] = $type;
             }
 
-            if (!$pluginManager->isPluginActivated('CustomReports')) {
+            if (!$pluginManager->isPluginInstalled('CustomReports') || !$pluginManager->isPluginActivated('CustomReports')) {
                 // ideally we would move CustomReportEntity to the custom reports plugin, but this way it will be easier
                 // testable for now as it needs to integrate with customdimensions and events etc
                 // also for now we don't move dashboard entity to dashboards plugin etc
