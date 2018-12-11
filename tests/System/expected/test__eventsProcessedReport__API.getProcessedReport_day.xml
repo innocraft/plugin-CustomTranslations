@@ -9,6 +9,10 @@
 		<module>Events</module>
 		<action>getAction</action>
 		<dimension>Event Action</dimension>
+		<dimensions>
+			<Events_EventAction>Event Action</Events_EventAction>
+			<Events_EventName>Event Name</Events_EventName>
+		</dimensions>
 		<metrics>
 			<nb_events>Events</nb_events>
 			<sum_event_value>Event value</sum_event_value>
@@ -88,7 +92,13 @@
 		</row>
 	</reportMetadata>
 	<reportTotal>
-		<nb_visits>3</nb_visits>
 		<nb_uniq_visitors>3</nb_uniq_visitors>
+		<nb_visits>3</nb_visits>
+		<nb_events>4</nb_events>
+		<nb_events_with_value>4</nb_events_with_value>
+		<sum_event_value>21</sum_event_value>
+		<min_event_value>14</min_event_value>
+		<max_event_value>14</max_event_value>
+		<avg_event_value>5.25</avg_event_value>
 	</reportTotal>
 </result>

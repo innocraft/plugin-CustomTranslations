@@ -10,6 +10,8 @@
 		<min_event_value>2</min_event_value>
 		<max_event_value>2</max_event_value>
 		<avg_event_value>2</avg_event_value>
+		<Events_EventCategory>MyCategory2</Events_EventCategory>
+		<Events_EventAction>genericValue2</Events_EventAction>
 	</row>
 	<row>
 		<label>MyCategory3 - MyAction3</label>
@@ -21,6 +23,8 @@
 		<min_event_value>7</min_event_value>
 		<max_event_value>7</max_event_value>
 		<avg_event_value>7</avg_event_value>
+		<Events_EventCategory>MyCategory3</Events_EventCategory>
+		<Events_EventAction>MyAction3</Events_EventAction>
 	</row>
 	<row>
 		<label>RenamedCategory - RenamedAction</label>
@@ -32,5 +36,7 @@
 		<min_event_value>5</min_event_value>
 		<max_event_value>5</max_event_value>
 		<avg_event_value>5</avg_event_value>
+		<Events_EventCategory>RenamedCategory</Events_EventCategory>
+		<Events_EventAction>RenamedAction</Events_EventAction>
 	</row>
 </result>

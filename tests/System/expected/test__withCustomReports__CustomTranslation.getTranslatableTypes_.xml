@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<result>
+	<row>
+		<id>customDimensionEntity</id>
+		<name>Custom Dimension Name</name>
+		<description>Translate the name of custom dimension entities</description>
+		<translationKeys>
+			<row>DimensionVisit1</row>
+			<row>DimensionVisit2</row>
+			<row>DimensionAction1</row>
+			<row>DimensionAction2</row>
+		</translationKeys>
+	</row>
+	<row>
+		<id>customDimensionLabel</id>
+		<name>Custom Dimension Value</name>
+		<description>Translate the name of tracked event values</description>
+		<translationKeys>
+		</translationKeys>
+	</row>
+	<row>
+		<id>customReportEntity</id>
+		<name>Custom Report Name</name>
+		<description>Translate the name of custom report entities</description>
+		<translationKeys>
+			<row>CustomReport1</row>
+			<row>CustomReport2</row>
+			<row>CustomReport3</row>
+			<row>CustomReport4</row>
+			<row>CustomReport5</row>
+			<row>CustomReport6</row>
+			<row>CustomReport7</row>
+		</translationKeys>
+	</row>
+	<row>
+		<id>dashboardEntity</id>
+		<name>Dashboard Name</name>
+		<description>Translate the name of dashboard entities</description>
+		<translationKeys>
+			<row>Dashboard1</row>
+			<row>Dashboard2</row>
+			<row>Dashboard3</row>
+		</translationKeys>
+	</row>
+	<row>
+		<id>eventLabel</id>
+		<name>Event Value</name>
+		<description>Translate the name of tracked event values</description>
+		<translationKeys>
+		</translationKeys>
+	</row>
+</result>

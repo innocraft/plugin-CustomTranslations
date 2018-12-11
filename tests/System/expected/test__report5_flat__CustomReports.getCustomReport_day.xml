@@ -4,10 +4,14 @@
 		<label>actionDim222 - visitDim2</label>
 		<nb_visits>1</nb_visits>
 		<level>2</level>
+		<CustomDimension_CustomDimension4>actionDim222</CustomDimension_CustomDimension4>
+		<CustomDimension_CustomDimension2>visitDim2</CustomDimension_CustomDimension2>
 	</row>
 	<row>
 		<label>RenameDimension2 - visitDim2</label>
 		<nb_visits>1</nb_visits>
 		<level>2</level>
+		<CustomDimension_CustomDimension4>RenameDimension2</CustomDimension_CustomDimension4>
+		<CustomDimension_CustomDimension2>visitDim2</CustomDimension_CustomDimension2>
 	</row>
 </result>

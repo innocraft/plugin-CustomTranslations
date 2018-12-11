@@ -4,15 +4,21 @@
 		<label>MyName2 - visitDim2</label>
 		<nb_visits>1</nb_visits>
 		<level>2</level>
+		<Events_EventName>MyName2</Events_EventName>
+		<CustomDimension_CustomDimension2>visitDim2</CustomDimension_CustomDimension2>
 	</row>
 	<row>
 		<label>MyName3 - visitDim2</label>
 		<nb_visits>1</nb_visits>
 		<level>2</level>
+		<Events_EventName>MyName3</Events_EventName>
+		<CustomDimension_CustomDimension2>visitDim2</CustomDimension_CustomDimension2>
 	</row>
 	<row>
 		<label>RenamedEvent1 - visitDim2</label>
 		<nb_visits>1</nb_visits>
 		<level>2</level>
+		<Events_EventName>RenamedEvent1</Events_EventName>
+		<CustomDimension_CustomDimension2>visitDim2</CustomDimension_CustomDimension2>
 	</row>
 </result>

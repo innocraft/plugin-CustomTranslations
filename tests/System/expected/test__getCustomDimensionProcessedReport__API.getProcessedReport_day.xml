@@ -57,10 +57,16 @@
 		</row>
 	</reportMetadata>
 	<reportTotal>
-		<nb_visits>1</nb_visits>
 		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>1</nb_visits>
 		<nb_actions>8</nb_actions>
-		<nb_visits_converted>0</nb_visits_converted>
+		<max_actions>8</max_actions>
+		<sum_visit_length>361</sum_visit_length>
 		<bounce_count>0</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+		<avg_bandwidth>0</avg_bandwidth>
+		<avg_time_on_site>361</avg_time_on_site>
+		<bounce_rate>0%</bounce_rate>
+		<nb_actions_per_visit>8</nb_actions_per_visit>
 	</reportTotal>
 </result>
