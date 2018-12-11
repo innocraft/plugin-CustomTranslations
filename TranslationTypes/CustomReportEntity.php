@@ -13,6 +13,7 @@ use Piwik\Common;
 use Piwik\DataTable\DataTableInterface;
 use Piwik\Db;
 use Piwik\Piwik;
+use Piwik\Plugin;
 use Piwik\Plugins\CustomTranslations\Dao\TranslationsDao;
 
 class CustomReportEntity extends TranslationType
@@ -47,6 +48,10 @@ class CustomReportEntity extends TranslationType
 
     public function getTranslationKeys()
     {
+        if (!Plugin\Manager::getInstance()->isPluginInstalled('CustomReports')) {
+            return array();
+        }
+        
         // for performance we access DB directly
         $rows = Db::fetchAll('SELECT DISTINCT `name` from ' . Common::prefixTable('custom_reports') . ' where status = "active"');
         return array_filter(array_unique(array_column($rows, 'name')));
