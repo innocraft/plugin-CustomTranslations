@@ -152,11 +152,13 @@ class CustomTranslationsFixture extends Fixture
             'MyCategory' => 'RenamedCategory',
             'foobar' => 'baz',
         ));
-        API::getInstance()->setTranslations(CustomReportEntity::ID, 'en', array(
-            'CustomReport1' => 'RenamedReport1',
-            'CustomReport3' => 'RenamedReport3',
-            'foobar' => 'baz'
-        ));
+        if (self::hasCustomReports()) {
+            API::getInstance()->setTranslations(CustomReportEntity::ID, 'en', array(
+                'CustomReport1' => 'RenamedReport1',
+                'CustomReport3' => 'RenamedReport3',
+                'foobar' => 'baz'
+            ));
+        }
     }
 
     protected function trackFirstVisit()
