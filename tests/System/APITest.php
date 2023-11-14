@@ -70,7 +70,7 @@ class APITest extends SystemTestCase
         }
 
         $apiOutputIsMissingMetricTypes = version_compare(Version::VERSION, '4.13.4-b1', '<');
-        $testSuffix = 'API.getReportMetadata' == $api && $apiOutputIsMissingMetricTypes ? '_Old' : '';
+        $testSuffix = in_array($api, ['API.getReportMetadata', 'API.getWidgetMetadata', 'API.getReportPagesMetadata']) && $apiOutputIsMissingMetricTypes ? '_Old' : '';
 
         $this->runAnyApiTest($api, '', $params, array('testSuffix' => $testSuffix, 'xmlFieldsToRemove' => array('imageGraphUrl', 'imageGraphEvolutionUrl')));
     }
@@ -119,7 +119,7 @@ class APITest extends SystemTestCase
             'period' => 'day',
         );
 
-        $testSuffix = 'withCustomReports' . ('API.getReportMetadata' == $api && $apiOutputIsMissingMetricTypes ? '_Old' : '');
+        $testSuffix = 'withCustomReports' . (in_array($api, ['API.getReportMetadata', 'API.getWidgetMetadata', 'API.getReportPagesMetadata']) && $apiOutputIsMissingMetricTypes ? '_Old' : '');
         $this->runAnyApiTest($api, '', $params, array('testSuffix' => $testSuffix, 'xmlFieldsToRemove' => array('imageGraphUrl', 'imageGraphEvolutionUrl')));
     }
 
