@@ -8,6 +8,7 @@
 			<order>1</order>
 			<icon />
 			<help />
+			<widget />
 		</category>
 		<subcategory />
 		<module>CoreVisualizations</module>
@@ -29,6 +30,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory />
 		<module>Live</module>
@@ -51,6 +53,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory />
 		<module>Live</module>
@@ -71,6 +74,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory />
 		<module>CoreHome</module>
@@ -94,6 +98,7 @@
 					<order>99</order>
 					<icon />
 					<help />
+					<widget />
 				</category>
 				<subcategory>
 					<id>General_Overview</id>
@@ -123,6 +128,7 @@
 					<order>99</order>
 					<icon />
 					<help />
+					<widget />
 				</category>
 				<subcategory>
 					<id>General_Overview</id>
@@ -154,6 +160,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>General_Overview</id>
@@ -183,6 +190,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>General_Overview</id>
@@ -212,6 +220,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>Live_VisitorLog</id>
@@ -242,6 +251,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>General_RealTime</id>
@@ -267,6 +277,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>UserCountryMap_RealTimeMap</id>
@@ -292,6 +303,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>UserCountry_SubmenuLocations</id>
@@ -317,6 +329,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>UserCountry_SubmenuLocations</id>
@@ -344,6 +357,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>UserCountry_SubmenuLocations</id>
@@ -371,6 +385,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>UserCountry_SubmenuLocations</id>
@@ -398,6 +413,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>UserCountry_SubmenuLocations</id>
@@ -425,6 +441,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>UserCountry_SubmenuLocations</id>
@@ -452,6 +469,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>UserCountry_SubmenuLocations</id>
@@ -479,6 +497,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>DevicesDetection_Devices</id>
@@ -506,6 +525,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>DevicesDetection_Devices</id>
@@ -533,6 +553,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>DevicesDetection_Devices</id>
@@ -560,6 +581,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>DevicesDetection_Devices</id>
@@ -587,6 +609,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>DevicesDetection_Software</id>
@@ -614,6 +637,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>DevicesDetection_Software</id>
@@ -641,6 +665,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>DevicesDetection_Software</id>
@@ -668,6 +693,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>DevicesDetection_Software</id>
@@ -695,6 +721,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>DevicesDetection_Software</id>
@@ -722,6 +749,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>DevicesDetection_Software</id>
@@ -749,6 +777,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>DevicesDetection_Software</id>
@@ -776,6 +805,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>VisitTime_SubmenuTimes</id>
@@ -803,6 +833,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>VisitTime_SubmenuTimes</id>
@@ -830,6 +861,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>VisitTime_SubmenuTimes</id>
@@ -857,6 +889,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>UserId_UserReportTitle</id>
@@ -884,6 +917,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>CustomVariables_CustomVariables</id>
@@ -911,6 +945,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>customdimension2</id>
@@ -939,6 +974,7 @@
 			<order>5</order>
 			<icon>icon-reporting-visitors</icon>
 			<help>&lt;p&gt;The Visitors pages tell you things about who your visitors are. Things like where your visitors came from, what devices and browsers they're using and when they generally visit your website. Understand, in the aggregate, who your audience is, and look for outliers to see how your audience could grow.&lt;/p&gt;&lt;p&gt;In addition to general information about your visitors, you can also use the &lt;a href=&quot;#&quot; onclick=&quot;this.href=broadcast.buildReportingUrl('category=General_Visitors&amp;subcategory=Live_VisitorLog')&quot;&gt;Visits Log&lt;/a&gt; to see what occurred in every individual visit.&lt;/p&gt;</help>
+			<widget />
 		</category>
 		<subcategory>
 			<id>customdimension1</id>
@@ -967,6 +1003,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>General_Pages</id>
@@ -994,6 +1031,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Actions_SubmenuPagesEntry</id>
@@ -1021,6 +1059,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Actions_SubmenuPagesEntry</id>
@@ -1048,6 +1087,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Actions_SubmenuPagesExit</id>
@@ -1075,6 +1115,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Actions_SubmenuPagesExit</id>
@@ -1102,6 +1143,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Actions_SubmenuPageTitles</id>
@@ -1129,6 +1171,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Actions_SubmenuSitesearch</id>
@@ -1156,6 +1199,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Actions_SubmenuSitesearch</id>
@@ -1183,6 +1227,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Actions_SubmenuSitesearch</id>
@@ -1210,6 +1255,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Actions_SubmenuSitesearch</id>
@@ -1237,6 +1283,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Actions_SubmenuSitesearch</id>
@@ -1264,6 +1311,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>General_Outlinks</id>
@@ -1291,6 +1339,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>General_Downloads</id>
@@ -1318,6 +1367,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Events_Events</id>
@@ -1346,6 +1396,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Events_Events</id>
@@ -1374,6 +1425,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Events_Events</id>
@@ -1402,6 +1454,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Contents_Contents</id>
@@ -1429,6 +1482,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Contents_Contents</id>
@@ -1456,6 +1510,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Transitions_Transitions</id>
@@ -1481,6 +1536,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>VisitorInterest_Engagement</id>
@@ -1510,6 +1566,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>VisitorInterest_Engagement</id>
@@ -1539,6 +1596,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>VisitorInterest_Engagement</id>
@@ -1566,6 +1624,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>VisitorInterest_Engagement</id>
@@ -1593,6 +1652,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>VisitorInterest_Engagement</id>
@@ -1620,6 +1680,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>VisitorInterest_Engagement</id>
@@ -1647,6 +1708,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>PagePerformance_Performance</id>
@@ -1676,6 +1738,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>customdimension3</id>
@@ -1704,6 +1767,7 @@
 			<order>10</order>
 			<icon>icon-reporting-actions</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>customdimension4</id>
@@ -1732,6 +1796,7 @@
 			<order>15</order>
 			<icon>icon-reporting-referer</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Referrers_WidgetGetAll</id>
@@ -1759,6 +1824,7 @@
 			<order>15</order>
 			<icon>icon-reporting-referer</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Referrers_WidgetGetAll</id>
@@ -1786,6 +1852,7 @@
 			<order>15</order>
 			<icon>icon-reporting-referer</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Referrers_SubmenuSearchEngines</id>
@@ -1813,6 +1880,7 @@
 			<order>15</order>
 			<icon>icon-reporting-referer</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Referrers_SubmenuSearchEngines</id>
@@ -1840,6 +1908,7 @@
 			<order>15</order>
 			<icon>icon-reporting-referer</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Referrers_SubmenuWebsitesOnly</id>
@@ -1867,6 +1936,7 @@
 			<order>15</order>
 			<icon>icon-reporting-referer</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Referrers_Socials</id>
@@ -1894,6 +1964,7 @@
 			<order>15</order>
 			<icon>icon-reporting-referer</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Referrers_Campaigns</id>
@@ -1921,6 +1992,7 @@
 			<order>15</order>
 			<icon>icon-reporting-referer</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Referrers_URLCampaignBuilder</id>
@@ -1946,6 +2018,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>General_Overview</id>
@@ -1974,6 +2047,7 @@
 					<order>99</order>
 					<icon />
 					<help />
+					<widget />
 				</category>
 				<subcategory>
 					<id>General_Overview</id>
@@ -2004,6 +2078,7 @@
 					<order>99</order>
 					<icon />
 					<help />
+					<widget />
 				</category>
 				<subcategory>
 					<id>General_Overview</id>
@@ -2034,6 +2109,7 @@
 					<order>99</order>
 					<icon />
 					<help />
+					<widget />
 				</category>
 				<subcategory>
 					<id>ecommerceOrder</id>
@@ -2069,6 +2145,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Goals_EcommerceLog</id>
@@ -2094,6 +2171,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Goals_Products</id>
@@ -2121,6 +2199,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Goals_Products</id>
@@ -2148,6 +2227,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Goals_Products</id>
@@ -2175,6 +2255,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2207,6 +2288,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2239,6 +2321,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2271,6 +2354,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2303,6 +2387,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2336,6 +2421,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2369,6 +2455,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2401,6 +2488,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2433,6 +2521,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2465,6 +2554,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2497,6 +2587,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2529,6 +2620,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2561,6 +2653,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2593,6 +2686,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2625,6 +2719,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2657,6 +2752,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2689,6 +2785,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2721,6 +2818,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2753,6 +2851,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2785,6 +2884,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2817,6 +2917,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2849,6 +2950,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2881,6 +2983,7 @@
 			<order>20</order>
 			<icon>icon-reporting-ecommerce</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>Ecommerce_Sales</id>
@@ -2913,6 +3016,7 @@
 			<order>25</order>
 			<icon>icon-reporting-goal</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>General_Overview</id>
@@ -2941,6 +3045,7 @@
 					<order>99</order>
 					<icon />
 					<help />
+					<widget />
 				</category>
 				<subcategory>
 					<id>General_Overview</id>
@@ -2970,6 +3075,7 @@
 					<order>99</order>
 					<icon />
 					<help />
+					<widget />
 				</category>
 				<subcategory>
 					<id>General_Overview</id>
@@ -2999,6 +3105,7 @@
 					<order>99</order>
 					<icon />
 					<help />
+					<widget />
 				</category>
 				<subcategory>
 					<id>General_Overview</id>
@@ -3028,6 +3135,7 @@
 			<order>65</order>
 			<icon>icon-business</icon>
 			<help />
+			<widget />
 		</category>
 		<subcategory>
 			<id>2</id>
