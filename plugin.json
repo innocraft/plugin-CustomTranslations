@@ -20,5 +20,6 @@
   },
   "homepage": "https://innocraft.com",
   "license": "GPL v3+",
-  "keywords": ["translation", "translate", "i18n", "international", "custom dimension", "custom reports"]
+  "keywords": ["translation", "translate", "i18n", "international", "custom dimension", "custom reports"],
+  "category": "database"
 }
