@@ -1,5 +1,10 @@
 ## Changelog
 
+### 5.0.2 - 02/03/2026
+
+- Updated API documentation
+
+
 ### 5.0.1
 
 - Added plugin category for Marketplace

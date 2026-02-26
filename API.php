@@ -15,6 +15,13 @@ use Piwik\Plugins\CustomTranslations\Dao\TranslationsDao;
 use Piwik\Plugins\CustomTranslations\TranslationTypes\TranslationType;
 use Piwik\Plugins\CustomTranslations\TranslationTypes\TranslationTypeProvider;
 
+/**
+ * Public API for managing CustomTranslations translation values and metadata.
+ *
+ * All endpoints exposed by this API require Super User access.
+ *
+ * @method static \Piwik\Plugins\CustomTranslations\API getInstance()
+ */
 class API extends \Piwik\Plugin\API
 {
     /**
