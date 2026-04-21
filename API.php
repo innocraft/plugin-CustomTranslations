@@ -16,9 +16,8 @@ use Piwik\Plugins\CustomTranslations\TranslationTypes\TranslationType;
 use Piwik\Plugins\CustomTranslations\TranslationTypes\TranslationTypeProvider;
 
 /**
- * Public API for managing CustomTranslations translation values and metadata.
- *
- * All endpoints exposed by this API require Super User access.
+ * Exposes Super User endpoints for listing translatable entities and storing custom label overrides.
+ * Saved translations are applied to supported dashboard, event, custom dimension, and custom report outputs.
  *
  * @method static \Piwik\Plugins\CustomTranslations\API getInstance()
  */
@@ -40,12 +39,13 @@ class API extends \Piwik\Plugin\API
     }
 
     /**
-     * Sets (overwrites) the translations for a specific type. Make sure to pass all translations for the given type
-     * / language.
-     * @param string $idType
-     * @param string $languageCode
-     * @param array $translations  An array where (original value => translation)
-     * @throws \Exception If type, language, or translations is not valid
+     * Stores the full translation map for a specific type and language.
+     * Pass an empty array to remove any saved translations for that type and language.
+     *
+     * @param string $idType Translation type identifier returned by getTranslatableTypes().
+     * @param string $languageCode Language code to store translations for.
+     * @param array<string, string> $translations Map of original labels to replacement labels.
+     * @return void
      */
     public function setTranslations($idType, $languageCode, $translations = array())
     {
@@ -58,10 +58,11 @@ class API extends \Piwik\Plugin\API
     }
 
     /**
-     * Get all existing translations for a specific type and language.
-     * @param string $idType
-     * @param string $languageCode
-     * @throws \Exception If type, language, or translations is not valid
+     * Returns the saved translations for a specific type and language.
+     *
+     * @param string $idType Translation type identifier returned by getTranslatableTypes().
+     * @param string $languageCode Language code to load translations for.
+     * @return array<string, string> Translation map keyed by the original label for the requested type and language.
      */
     public function getTranslationsForType($idType, $languageCode)
     {
@@ -84,8 +85,10 @@ class API extends \Piwik\Plugin\API
     }
 
     /**
-     * Get a list of all translatable types.
-     * @return array[]
+     * Lists the translation types that can be configured through this plugin.
+     *
+     * @return array<int, array{id: string, name: string, description: string, translationKeys: array<int, string>}>
+     *         Available translation type metadata, sorted by name.
      */
     public function getTranslatableTypes()
     {
