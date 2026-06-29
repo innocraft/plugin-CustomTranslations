@@ -73,7 +73,7 @@ class APITest extends SystemTestCase
         $testSuffix = 'API.getReportMetadata' == $api && $apiOutputIsMissingMetricChanges ? '_Old' : '';
         $testSuffix = in_array($api, ['API.getReportPagesMetadata', 'API.getWidgetMetadata']) && version_compare(Version::VERSION, '5.9.0-b1', '<') ? '_Old' : $testSuffix;
 
-        $this->runAnyApiTest($api, '', $params, array('testSuffix' => $testSuffix, 'xmlFieldsToRemove' => array('imageGraphUrl', 'imageGraphEvolutionUrl')));
+        $this->runAnyApiTest($api, '', $params, array('testSuffix' => $testSuffix, 'xmlFieldsToRemove' => array('imageGraphUrl', 'imageGraphEvolutionUrl', 'groups')));
     }
 
     public function getTestsToRunWithAndWithoutCustomReports()
@@ -106,7 +106,7 @@ class APITest extends SystemTestCase
         );
 
         $testSuffix = 'withCustomReports';
-        $this->runAnyApiTest($api, '', $params, array('testSuffix' => $testSuffix, 'xmlFieldsToRemove' => array('imageGraphUrl', 'imageGraphEvolutionUrl')));
+        $this->runAnyApiTest($api, '', $params, array('testSuffix' => $testSuffix, 'xmlFieldsToRemove' => array('imageGraphUrl', 'imageGraphEvolutionUrl', 'groups')));
     }
 
     private function makeSureToLoadCustomReports()
