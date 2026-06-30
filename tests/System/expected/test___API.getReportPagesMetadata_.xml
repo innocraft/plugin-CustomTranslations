@@ -4473,6 +4473,7 @@
 			<icon />
 			<help />
 			<widget>Marketplace.RichMenuButton</widget>
+			
 		</category>
 		<subcategory>
 			<id>Marketplace_Browse</id>
@@ -4505,6 +4506,7 @@
 			<icon />
 			<help />
 			<widget>Marketplace.RichMenuButton</widget>
+			
 		</category>
 		<subcategory>
 			<id>Marketplace_PaidPlugins</id>
