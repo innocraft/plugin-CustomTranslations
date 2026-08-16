@@ -1,9 +1,18 @@
 {
     "CustomTranslations": {
-        "CustomReportName": "Vlastní název zprávy",
+        "CustomDimensionDescription": "Překládat názvy vlastních dimenzí",
+        "CustomDimensionName": "Název vlastní dimenze",
+        "CustomDimensionValue": "Hodnota vlastní dimenze",
+        "CustomDimensionValueDescription": "Překládat názvy sledovaných hodnot událostí",
+        "CustomReportDescription": "Překládat názvy vlastních přehledů",
+        "CustomReportName": "Název vlastního přehledu",
         "CustomTranslations": "Vlastní překlady",
-        "LanguageInlineHelp": "Vyberte jazyk, který chcete přeložit.",
-        "PluginDescription": "Překlad entit a hodnot hlášení do různých jazyků",
+        "DashboardDescription": "Překládat názvy nástěnek",
+        "DashboardName": "Název nástěnky",
+        "EventValue": "Hodnota události",
+        "EventValueDescription": "Překládat názvy sledovaných hodnot událostí",
+        "LanguageInlineHelp": "Vyberte jazyk, do kterého chcete překládat.",
+        "PluginDescription": "Překládá entity a hodnoty přehledů do různých jazyků",
         "Translation": "Překlad",
         "TranslationType": "Typ překladu"
     }
