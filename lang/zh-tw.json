@@ -1,18 +1,18 @@
 {
     "CustomTranslations": {
-        "CustomDimensionDescription": "翻譯自訂維度的實例名稱",
+        "CustomDimensionDescription": "翻譯自訂維度項目的名稱",
         "CustomDimensionName": "自訂維度名稱",
         "CustomDimensionValue": "自訂維度值",
         "CustomDimensionValueDescription": "翻譯追蹤事件值的名稱",
-        "CustomReportDescription": "翻譯自訂報表的實例名稱",
+        "CustomReportDescription": "翻譯自訂報表項目的名稱",
         "CustomReportName": "自訂報表名稱",
         "CustomTranslations": "自訂翻譯",
-        "DashboardDescription": "翻譯儀錶板實例的名稱",
-        "DashboardName": "儀錶板名稱",
+        "DashboardDescription": "翻譯展示板項目的名稱",
+        "DashboardName": "展示板名稱",
         "EventValue": "事件值",
         "EventValueDescription": "翻譯追蹤事件值的名稱",
         "LanguageInlineHelp": "選擇你想要翻譯成哪種語言。",
-        "PluginDescription": "將實例與報表值翻譯成不同的語言",
+        "PluginDescription": "將各項目與報表值翻譯成不同的語言",
         "Translation": "翻譯",
         "TranslationType": "翻譯類型"
     }
