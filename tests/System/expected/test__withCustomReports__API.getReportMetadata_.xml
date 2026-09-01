@@ -2528,6 +2528,7 @@
 			<Referrers_distinctWebsites>Distinct websites</Referrers_distinctWebsites>
 			<Referrers_distinctKeywords>Distinct keywords</Referrers_distinctKeywords>
 			<Referrers_distinctCampaigns>Distinct campaigns</Referrers_distinctCampaigns>
+			<Referrers_distinctWebsitesUrls>Distinct website URLs</Referrers_distinctWebsitesUrls>
 		</metrics>
 		<metricTypes>
 			<Referrers_visitorsFromSearchEngines>number</Referrers_visitorsFromSearchEngines>
@@ -2548,6 +2549,7 @@
 			<Referrers_distinctWebsites>number</Referrers_distinctWebsites>
 			<Referrers_distinctKeywords>number</Referrers_distinctKeywords>
 			<Referrers_distinctCampaigns>number</Referrers_distinctCampaigns>
+			<Referrers_distinctWebsitesUrls>number</Referrers_distinctWebsitesUrls>
 		</metricTypes>
 		
 		
@@ -4013,6 +4015,7 @@
 			<Referrers_distinctWebsites>Distinct websites</Referrers_distinctWebsites>
 			<Referrers_distinctKeywords>Distinct keywords</Referrers_distinctKeywords>
 			<Referrers_distinctCampaigns>Distinct campaigns</Referrers_distinctCampaigns>
+			<Referrers_distinctWebsitesUrls>Distinct website URLs</Referrers_distinctWebsitesUrls>
 			<nb_conversions>Conversions</nb_conversions>
 			<nb_visits_converted>Visits with Conversions</nb_visits_converted>
 			<revenue>Revenue</revenue>
@@ -4152,6 +4155,7 @@
 			<Referrers_distinctWebsites>number</Referrers_distinctWebsites>
 			<Referrers_distinctKeywords>number</Referrers_distinctKeywords>
 			<Referrers_distinctCampaigns>number</Referrers_distinctCampaigns>
+			<Referrers_distinctWebsitesUrls>number</Referrers_distinctWebsitesUrls>
 			<nb_conversions>number</nb_conversions>
 			<nb_visits_converted>number</nb_visits_converted>
 			<revenue>money</revenue>
