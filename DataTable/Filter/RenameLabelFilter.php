@@ -9,7 +9,6 @@
 
 namespace Piwik\Plugins\CustomTranslations\DataTable\Filter;
 
-use Piwik\Columns\Dimension;
 use Piwik\DataTable\BaseFilter;
 use Piwik\DataTable;
 
