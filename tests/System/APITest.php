@@ -155,9 +155,10 @@ class APITest extends SystemTestCase
         }
 
         $matomo54Alpha = version_compare(Version::VERSION, '5.4.0-alpha', '<');
+        $matomo60b3 = version_compare(Version::VERSION, '6.0.0-b3', '<');
         $apiToTest[] = array(array('API.getProcessedReport'), array(
             'idSite' => self::$fixture->idSite,
-            'testSuffix' => ($matomo54Alpha ? '_54a' : '') . '_getCustomDimensionProcessedReport',
+            'testSuffix' => ($matomo54Alpha ? '_54a' : ($matomo60b3 ? '_60b3' : '')) . '_getCustomDimensionProcessedReport',
             'otherRequestParameters' => array(
                 'apiModule' => 'CustomDimensions',
                 'apiAction' => 'getCustomDimension',
@@ -215,7 +216,7 @@ class APITest extends SystemTestCase
         $matomo52Alpha = version_compare(Version::VERSION, '5.2.0-alpha', '<');
         $apiToTest[] = array(array('API.getProcessedReport'), array(
             'idSite' => self::$fixture->idSite,
-            'testSuffix' => ($matomo52Alpha ? '_52a' : '') . '_eventsProcessedReport',
+            'testSuffix' => ($matomo52Alpha ? '_52a' : ($matomo60b3 ? '_60b3' : '')) . '_eventsProcessedReport',
             'otherRequestParameters' => array(
                 'apiModule' => 'Events',
                 'apiAction' => 'getAction',
