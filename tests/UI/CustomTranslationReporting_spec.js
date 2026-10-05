@@ -219,9 +219,9 @@ describe("CustomTranslationReporting", function () {
                 it(`should be possible to search for renamed label for report ${reportName}`, async function () {
                     await captureWidget('report_' + reportName + '_search', async function () {
                         await page.click('.ui-dialog .ui-dialog-titlebar-close');
-                        await page.click('.dataTableAction.searchAction');
-                        await page.type('.searchAction .dataTableSearchInput', 'ren');
-                        await page.click('.searchAction .icon-search');
+                        await page.type('.reportHeader__search .mtm-searchInput__input', 'ren');
+                        // waits out the search debounce and the reload it triggers
+                        await page.waitForNetworkIdle();
                     });
                 });
 
