@@ -1,1 +1,19 @@
-{}
+{
+    "CustomTranslations": {
+        "CustomDimensionDescription": "Omset namnet på tilpassa dimensjonar",
+        "CustomDimensionName": "Namn på tilpassa dimensjon",
+        "CustomDimensionValue": "Verdi for tilpassa dimensjon",
+        "CustomDimensionValueDescription": "Omset namnet på spora hendingsverdiar",
+        "CustomReportDescription": "Omset namnet på eigendefinerte rapportar",
+        "CustomReportName": "Namn på eigendefinert rapport",
+        "CustomTranslations": "Eigendefinerte omsetjingar",
+        "DashboardDescription": "Omset namnet på oversiktspanel",
+        "DashboardName": "Namn på oversiktspanel",
+        "EventValue": "Hendingsverdi",
+        "EventValueDescription": "Omset namnet på spora hendingsverdiar",
+        "LanguageInlineHelp": "Vel språket du vil omsetje til.",
+        "PluginDescription": "Omset einingar og rapportverdiar til ulike språk",
+        "Translation": "Omsetjing",
+        "TranslationType": "Omsetjingstype"
+    }
+}
