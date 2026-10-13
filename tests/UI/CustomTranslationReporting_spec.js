@@ -113,7 +113,7 @@ describe("CustomTranslationReporting", function () {
 
     it("should show the original dashboard name when trying to rename dashboard", async function () {
         await captureModal('dashboard_rename', async function () {
-            await page.click('.dashboard-manager .title');
+            await page.click('[vue-entry="Dashboard.DashboardSettings"] .mtm-selector__trigger');
             await page.click('button[data-action=renameDashboard]');
             await page.waitForTimeout(300);
         });
