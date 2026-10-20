@@ -9,7 +9,6 @@
 
 namespace Piwik\Plugins\CustomTranslations\DataTable\Filter;
 
-use Piwik\Columns\Dimension;
 use Piwik\DataTable\BaseFilter;
 use Piwik\DataTable;
 
@@ -21,7 +20,7 @@ class RenameLabelFilter extends BaseFilter
     public function __construct($table, $renameMap)
     {
         parent::__construct($table);
-        $this->renameMap = $renameMap;
+        $this->renameMap = is_array($renameMap) ? $renameMap : [];
     }
 
     /**
@@ -34,12 +33,11 @@ class RenameLabelFilter extends BaseFilter
 
     /**
      * @param DataTable $table
-     * @param Dimension $dimension
-     * @param Dimension[] $dimension
+     * @param int $level
      */
     private function renameLabels($table, $level)
     {
-        if (!$this->renameMap || !is_array($this->renameMap)) {
+        if (!$this->renameMap) {
             return;
         }
 
