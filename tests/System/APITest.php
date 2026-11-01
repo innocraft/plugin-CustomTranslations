@@ -69,8 +69,8 @@ class APITest extends SystemTestCase
             $this->clearCaches();
         }
 
-        $apiOutputIsMissingMetricChanges = version_compare(Version::VERSION, '5.2.0-b6', '<');
-        $testSuffix = 'API.getReportMetadata' == $api && $apiOutputIsMissingMetricChanges ? '_Old' : '';
+        $apiOutputHasGoalsOverviewReports = version_compare(Version::VERSION, '6.0.0-b9', '<');
+        $testSuffix = 'API.getReportMetadata' == $api && $apiOutputHasGoalsOverviewReports ? '_60b9' : '';
         $testSuffix = in_array($api, ['API.getReportPagesMetadata', 'API.getWidgetMetadata']) && version_compare(Version::VERSION, '5.9.0-b1', '<') ? '_Old' : $testSuffix;
 
         $this->runAnyApiTest($api, '', $params, array('testSuffix' => $testSuffix, 'xmlFieldsToRemove' => array('imageGraphUrl', 'imageGraphEvolutionUrl')));
