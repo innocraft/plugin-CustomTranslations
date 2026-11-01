@@ -11,6 +11,8 @@
 			<nb_visits>Visits</nb_visits>
 			<nb_actions>Actions</nb_actions>
 			<nb_pageviews>Pageviews</nb_pageviews>
+			<hits>Hits</hits>
+			<ai_chatbots_requests>AI Chatbots Requests</ai_chatbots_requests>
 			<revenue>Revenue</revenue>
 			<nb_conversions>Conversions</nb_conversions>
 			<orders>Ecommerce Orders</orders>
@@ -20,11 +22,14 @@
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
 			<nb_actions>The number of actions performed by your visitors. Actions can be page views, internal site searches, downloads or outlinks.</nb_actions>
 			<nb_pageviews>The number of times this page was visited.</nb_pageviews>
+			<hits>The total count of all interactions recorded on your website, including page views, link clicks, downloads, and events.</hits>
 		</metricsDocumentation>
 		<processedMetrics>
 			<visits_evolution>Visits Evolution</visits_evolution>
 			<actions_evolution>Actions Evolution</actions_evolution>
 			<pageviews_evolution>Pageviews Evolution</pageviews_evolution>
+			<hits_evolution>Hits Evolution</hits_evolution>
+			<ai_chatbots_requests_evolution>AI Chatbots Requests Evolution</ai_chatbots_requests_evolution>
 			<revenue_evolution>Revenue Evolution</revenue_evolution>
 			<nb_conversions_evolution>Conversions Evolution</nb_conversions_evolution>
 			<orders_evolution>Ecommerce Orders Evolution</orders_evolution>
@@ -34,6 +39,8 @@
 			<nb_visits>number</nb_visits>
 			<nb_actions>number</nb_actions>
 			<nb_pageviews>number</nb_pageviews>
+			<hits>number</hits>
+			<ai_chatbots_requests>number</ai_chatbots_requests>
 			<revenue>money</revenue>
 			<nb_conversions>number</nb_conversions>
 			<orders>number</orders>
@@ -41,6 +48,8 @@
 			<visits_evolution>percent</visits_evolution>
 			<actions_evolution>percent</actions_evolution>
 			<pageviews_evolution>percent</pageviews_evolution>
+			<hits_evolution>percent</hits_evolution>
+			<ai_chatbots_requests_evolution>percent</ai_chatbots_requests_evolution>
 			<revenue_evolution>percent</revenue_evolution>
 			<nb_conversions_evolution>percent</nb_conversions_evolution>
 			<orders_evolution>percent</orders_evolution>
@@ -61,6 +70,8 @@
 			<nb_visits>Visits</nb_visits>
 			<nb_actions>Actions</nb_actions>
 			<nb_pageviews>Pageviews</nb_pageviews>
+			<hits>Hits</hits>
+			<ai_chatbots_requests>AI Chatbots Requests</ai_chatbots_requests>
 			<revenue>Revenue</revenue>
 			<nb_conversions>Conversions</nb_conversions>
 			<orders>Ecommerce Orders</orders>
@@ -70,11 +81,14 @@
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
 			<nb_actions>The number of actions performed by your visitors. Actions can be page views, internal site searches, downloads or outlinks.</nb_actions>
 			<nb_pageviews>The number of times this page was visited.</nb_pageviews>
+			<hits>The total count of all interactions recorded on your website, including page views, link clicks, downloads, and events.</hits>
 		</metricsDocumentation>
 		<processedMetrics>
 			<visits_evolution>Visits Evolution</visits_evolution>
 			<actions_evolution>Actions Evolution</actions_evolution>
 			<pageviews_evolution>Pageviews Evolution</pageviews_evolution>
+			<hits_evolution>Hits Evolution</hits_evolution>
+			<ai_chatbots_requests_evolution>AI Chatbots Requests Evolution</ai_chatbots_requests_evolution>
 			<revenue_evolution>Revenue Evolution</revenue_evolution>
 			<nb_conversions_evolution>Conversions Evolution</nb_conversions_evolution>
 			<orders_evolution>Ecommerce Orders Evolution</orders_evolution>
@@ -84,6 +98,8 @@
 			<nb_visits>number</nb_visits>
 			<nb_actions>number</nb_actions>
 			<nb_pageviews>number</nb_pageviews>
+			<hits>number</hits>
+			<ai_chatbots_requests>number</ai_chatbots_requests>
 			<revenue>money</revenue>
 			<nb_conversions>number</nb_conversions>
 			<orders>number</orders>
@@ -91,6 +107,8 @@
 			<visits_evolution>percent</visits_evolution>
 			<actions_evolution>percent</actions_evolution>
 			<pageviews_evolution>percent</pageviews_evolution>
+			<hits_evolution>percent</hits_evolution>
+			<ai_chatbots_requests_evolution>percent</ai_chatbots_requests_evolution>
 			<revenue_evolution>percent</revenue_evolution>
 			<nb_conversions_evolution>percent</nb_conversions_evolution>
 			<orders_evolution>percent</orders_evolution>
@@ -154,15 +172,17 @@
 			<nb_visits>Visits</nb_visits>
 			<nb_uniq_visitors>Unique visitors</nb_uniq_visitors>
 			<nb_actions>Actions</nb_actions>
+			<nb_users>Users</nb_users>
 		</metrics>
 		<metricsDocumentation>
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
 			<nb_uniq_visitors>The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day.</nb_uniq_visitors>
 			<nb_actions>The number of actions performed by your visitors. Actions can be page views, internal site searches, downloads or outlinks.</nb_actions>
+			<nb_users>The number of users logged in your website. It is the number of unique active users that have a User ID set (via the Tracking code function 'setUserId').</nb_users>
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -173,6 +193,7 @@
 			<nb_visits>number</nb_visits>
 			<nb_uniq_visitors>number</nb_uniq_visitors>
 			<nb_actions>number</nb_actions>
+			<nb_users>number</nb_users>
 			<nb_actions_per_visit>number</nb_actions_per_visit>
 			<avg_time_on_site>duration_s</avg_time_on_site>
 			<bounce_rate>percent</bounce_rate>
@@ -207,15 +228,17 @@
 			<nb_visits>Visits</nb_visits>
 			<nb_uniq_visitors>Unique visitors</nb_uniq_visitors>
 			<nb_actions>Actions</nb_actions>
+			<nb_users>Users</nb_users>
 		</metrics>
 		<metricsDocumentation>
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
 			<nb_uniq_visitors>The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day.</nb_uniq_visitors>
 			<nb_actions>The number of actions performed by your visitors. Actions can be page views, internal site searches, downloads or outlinks.</nb_actions>
+			<nb_users>The number of users logged in your website. It is the number of unique active users that have a User ID set (via the Tracking code function 'setUserId').</nb_users>
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -226,6 +249,7 @@
 			<nb_visits>number</nb_visits>
 			<nb_uniq_visitors>number</nb_uniq_visitors>
 			<nb_actions>number</nb_actions>
+			<nb_users>number</nb_users>
 			<nb_actions_per_visit>number</nb_actions_per_visit>
 			<avg_time_on_site>duration_s</avg_time_on_site>
 			<bounce_rate>percent</bounce_rate>
@@ -255,20 +279,22 @@
 		<module>UserCountry</module>
 		<action>getRegion</action>
 		<dimension>Region</dimension>
-		<documentation>Shows which region your visitors connected from when accessing website.&lt;br/&gt;Set up GeoIP in the Geolocation admin tab to provide data for this report. The commercial &lt;a rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot; href=&quot;http://www.maxmind.com/?rId=piwik&quot;&gt;MaxMind&lt;/a&gt; GeoIP databases are more accurate than the gratis ones. &lt;a rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot; href=&quot;http://www.maxmind.com/en/city_accuracy?rId=piwik&quot;&gt;Click here&lt;/a&gt; to see how accurate they are.</documentation>
+		<documentation>Shows which region your visitors connected from when accessing website.&lt;br/&gt;Set up GeoIP in the Geolocation admin tab to provide data for this report. The commercial &lt;a target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; href=&quot;http://www.maxmind.com/?rId=piwik&quot;&gt;MaxMind&lt;/a&gt; GeoIP databases are more accurate than the gratis ones. &lt;a target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; href=&quot;http://www.maxmind.com/en/city_accuracy?rId=piwik&quot;&gt;Click here&lt;/a&gt; to see how accurate they are.</documentation>
 		<metrics>
 			<nb_visits>Visits</nb_visits>
 			<nb_uniq_visitors>Unique visitors</nb_uniq_visitors>
 			<nb_actions>Actions</nb_actions>
+			<nb_users>Users</nb_users>
 		</metrics>
 		<metricsDocumentation>
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
 			<nb_uniq_visitors>The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day.</nb_uniq_visitors>
 			<nb_actions>The number of actions performed by your visitors. Actions can be page views, internal site searches, downloads or outlinks.</nb_actions>
+			<nb_users>The number of users logged in your website. It is the number of unique active users that have a User ID set (via the Tracking code function 'setUserId').</nb_users>
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -279,6 +305,7 @@
 			<nb_visits>number</nb_visits>
 			<nb_uniq_visitors>number</nb_uniq_visitors>
 			<nb_actions>number</nb_actions>
+			<nb_users>number</nb_users>
 			<nb_actions_per_visit>number</nb_actions_per_visit>
 			<avg_time_on_site>duration_s</avg_time_on_site>
 			<bounce_rate>percent</bounce_rate>
@@ -323,7 +350,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -359,20 +386,22 @@
 		<module>UserCountry</module>
 		<action>getCity</action>
 		<dimension>City</dimension>
-		<documentation>Shows the cities your visitors connected from when accessing your website.&lt;br/&gt;Set up GeoIP in the Geolocation admin tab to provide data for this report. The commercial &lt;a rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot; href=&quot;http://www.maxmind.com/?rId=piwik&quot;&gt;MaxMind&lt;/a&gt; GeoIP databases are more accurate than the gratis ones. &lt;a rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot; href=&quot;http://www.maxmind.com/en/city_accuracy?rId=piwik&quot;&gt;Click here&lt;/a&gt; to see how accurate they are.</documentation>
+		<documentation>Shows the cities your visitors connected from when accessing your website.&lt;br/&gt;Set up GeoIP in the Geolocation admin tab to provide data for this report. The commercial &lt;a target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; href=&quot;http://www.maxmind.com/?rId=piwik&quot;&gt;MaxMind&lt;/a&gt; GeoIP databases are more accurate than the gratis ones. &lt;a target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; href=&quot;http://www.maxmind.com/en/city_accuracy?rId=piwik&quot;&gt;Click here&lt;/a&gt; to see how accurate they are.</documentation>
 		<metrics>
 			<nb_visits>Visits</nb_visits>
 			<nb_uniq_visitors>Unique visitors</nb_uniq_visitors>
 			<nb_actions>Actions</nb_actions>
+			<nb_users>Users</nb_users>
 		</metrics>
 		<metricsDocumentation>
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
 			<nb_uniq_visitors>The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day.</nb_uniq_visitors>
 			<nb_actions>The number of actions performed by your visitors. Actions can be page views, internal site searches, downloads or outlinks.</nb_actions>
+			<nb_users>The number of users logged in your website. It is the number of unique active users that have a User ID set (via the Tracking code function 'setUserId').</nb_users>
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -383,6 +412,7 @@
 			<nb_visits>number</nb_visits>
 			<nb_uniq_visitors>number</nb_uniq_visitors>
 			<nb_actions>number</nb_actions>
+			<nb_users>number</nb_users>
 			<nb_actions_per_visit>number</nb_actions_per_visit>
 			<avg_time_on_site>duration_s</avg_time_on_site>
 			<bounce_rate>percent</bounce_rate>
@@ -427,7 +457,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -478,7 +508,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -534,7 +564,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -590,7 +620,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -646,7 +676,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -697,7 +727,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -748,7 +778,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -811,7 +841,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -862,7 +892,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -913,7 +943,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -964,7 +994,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -999,6 +1029,7 @@
 		</metrics>
 		<metricsDocumentation>
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
+			<nb_visits_percentage>The percentage of total visits where the plugin was detected. A visit may include multiple plugins. The value is rounded down to whole numbers.</nb_visits_percentage>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_visits_percentage>% Visits</nb_visits_percentage>
@@ -1033,7 +1064,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -1084,7 +1115,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -1140,7 +1171,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -1187,10 +1218,11 @@
 		<metricsDocumentation>
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
 			<nb_actions>The number of actions performed by your visitors. Actions can be page views, internal site searches, downloads or outlinks.</nb_actions>
+			<nb_visits_converted>Number of visits where at least one goal was successfully converted.</nb_visits_converted>
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -1238,7 +1270,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -1285,11 +1317,15 @@
 		<dimension>DimensionVisit2</dimension>
 		<metrics>
 			<nb_visits>Visits</nb_visits>
+			<nb_uniq_visitors>Unique visitors</nb_uniq_visitors>
 			<nb_actions>Actions</nb_actions>
+			<nb_users>Users</nb_users>
 		</metrics>
 		<metricsDocumentation>
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
+			<nb_uniq_visitors>The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day.</nb_uniq_visitors>
 			<nb_actions>The number of actions performed by your visitors. Actions can be page views, internal site searches, downloads or outlinks.</nb_actions>
+			<nb_users>The number of users logged in your website. It is the number of unique active users that have a User ID set (via the Tracking code function 'setUserId').</nb_users>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
@@ -1301,7 +1337,9 @@
 		</processedMetrics>
 		<metricTypes>
 			<nb_visits>number</nb_visits>
+			<nb_uniq_visitors>number</nb_uniq_visitors>
 			<nb_actions>number</nb_actions>
+			<nb_users>number</nb_users>
 			<avg_time_on_site>duration_s</avg_time_on_site>
 			<bounce_rate>percent</bounce_rate>
 			<nb_actions_per_visit>number</nb_actions_per_visit>
@@ -1323,11 +1361,15 @@
 		<dimension>RenamedDimVisit1</dimension>
 		<metrics>
 			<nb_visits>Visits</nb_visits>
+			<nb_uniq_visitors>Unique visitors</nb_uniq_visitors>
 			<nb_actions>Actions</nb_actions>
+			<nb_users>Users</nb_users>
 		</metrics>
 		<metricsDocumentation>
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
+			<nb_uniq_visitors>The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day.</nb_uniq_visitors>
 			<nb_actions>The number of actions performed by your visitors. Actions can be page views, internal site searches, downloads or outlinks.</nb_actions>
+			<nb_users>The number of users logged in your website. It is the number of unique active users that have a User ID set (via the Tracking code function 'setUserId').</nb_users>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
@@ -1339,7 +1381,9 @@
 		</processedMetrics>
 		<metricTypes>
 			<nb_visits>number</nb_visits>
+			<nb_uniq_visitors>number</nb_uniq_visitors>
 			<nb_actions>number</nb_actions>
+			<nb_users>number</nb_users>
 			<avg_time_on_site>duration_s</avg_time_on_site>
 			<bounce_rate>percent</bounce_rate>
 			<nb_actions_per_visit>number</nb_actions_per_visit>
@@ -1350,7 +1394,7 @@
 		<uniqueId>CustomDimensions_getCustomDimension_idDimension--1</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<name>Actions - Main metrics</name>
 		<module>Actions</module>
 		<action>get</action>
@@ -1364,6 +1408,7 @@
 			<nb_uniq_outlinks>Unique Outlinks</nb_uniq_outlinks>
 			<nb_searches>Searches</nb_searches>
 			<nb_keywords>Unique Keywords</nb_keywords>
+			<hits>Hits</hits>
 		</metrics>
 		<metricsDocumentation>
 			<nb_pageviews>The number of times this page was visited.</nb_pageviews>
@@ -1373,6 +1418,7 @@
 			<nb_outlinks>The number of times this link was clicked.</nb_outlinks>
 			<nb_uniq_outlinks>The number of visits that involved a click on this link. If a link was clicked multiple times during one visit, it is only counted once.</nb_uniq_outlinks>
 			<nb_searches>The number of visits that searched for this keyword on your website's search engine.</nb_searches>
+			<hits>The total count of all interactions recorded on your website, including page views, link clicks, downloads, and events.</hits>
 			<avg_time_generation>The average time it took to generate the page. This metric includes the time it took the server to generate the web page, plus the time it took for the visitor to download the response from the server. A lower 'Avg. generation time' means a faster website for your visitors!</avg_time_generation>
 		</metricsDocumentation>
 		<processedMetrics>
@@ -1387,6 +1433,7 @@
 			<nb_uniq_outlinks>number</nb_uniq_outlinks>
 			<nb_searches>number</nb_searches>
 			<nb_keywords>number</nb_keywords>
+			<hits>number</hits>
 			<avg_time_generation>duration_s</avg_time_generation>
 		</metricTypes>
 		
@@ -1394,7 +1441,7 @@
 		<uniqueId>Actions_get</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<name>Bandwidth - Main metrics</name>
 		<module>Bandwidth</module>
 		<action>get</action>
@@ -1418,7 +1465,7 @@
 		<uniqueId>Bandwidth_get</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Pages</subcategory>
 		<name>Page URLs</name>
 		<module>Actions</module>
@@ -1464,12 +1511,29 @@
 				<action>getExitPageUrls</action>
 			</row>
 		</relatedReports>
+		<metricsGoal>
+			<nb_conversions>Conversions</nb_conversions>
+			<nb_conversions_attrib>Conversions</nb_conversions_attrib>
+			<revenue_attrib>Revenue</revenue_attrib>
+		</metricsGoal>
+		<processedMetricsGoal>
+			<revenue_per_visit>Revenue per Visit</revenue_per_visit>
+			<nb_conversions_page_rate>Viewed before conversion rate</nb_conversions_page_rate>
+		</processedMetricsGoal>
+		<metricTypesGoal>
+			<revenue_per_visit>money</revenue_per_visit>
+			<nb_conversions>number</nb_conversions>
+			<conversion_rate>percent</conversion_rate>
+			<nb_conversions_attrib>number</nb_conversions_attrib>
+			<revenue_attrib>money</revenue_attrib>
+			<nb_conversions_page_rate>percent</nb_conversions_page_rate>
+		</metricTypesGoal>
 		
 		
 		<uniqueId>Actions_getPageUrls</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Entry pages</subcategory>
 		<name>Entry pages</name>
 		<module>Actions</module>
@@ -1483,7 +1547,7 @@
 		<metricsDocumentation>
 			<entry_nb_visits>Number of visits that started on this page.</entry_nb_visits>
 			<entry_bounce_count>Number of visits that started and ended on this page. This means that the visitor left the website after viewing only this page.</entry_bounce_count>
-			<avg_time_on_page>The average amount of time visitors spent on this page (only the page, not the entire website).</avg_time_on_page>
+			<bounce_rate>The percentage of visits that started on this page and left the website straight away.</bounce_rate>
 			<avg_time_generation>The average time it took to generate the page. This metric includes the time it took the server to generate the web page, plus the time it took for the visitor to download the response from the server. A lower 'Avg. generation time' means a faster website for your visitors!</avg_time_generation>
 		</metricsDocumentation>
 		<processedMetrics>
@@ -1506,12 +1570,31 @@
 				<action>getEntryPageTitles</action>
 			</row>
 		</relatedReports>
+		<metricsGoal>
+			<nb_conversions>Conversions</nb_conversions>
+			<nb_conversions_entry>Conversions</nb_conversions_entry>
+			<revenue_entry>Revenue</revenue_entry>
+		</metricsGoal>
+		<processedMetricsGoal>
+			<revenue_per_visit>Revenue per Visit</revenue_per_visit>
+			<revenue_per_entry>Revenue per Entry</revenue_per_entry>
+			<nb_conversions_entry_rate>Conversion Rate</nb_conversions_entry_rate>
+		</processedMetricsGoal>
+		<metricTypesGoal>
+			<revenue_per_visit>money</revenue_per_visit>
+			<nb_conversions>number</nb_conversions>
+			<conversion_rate>percent</conversion_rate>
+			<nb_conversions_entry>number</nb_conversions_entry>
+			<revenue_entry>money</revenue_entry>
+			<revenue_per_entry>number</revenue_per_entry>
+			<nb_conversions_entry_rate>percent</nb_conversions_entry_rate>
+		</metricTypesGoal>
 		
 		
 		<uniqueId>Actions_getEntryPageUrls</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Entry pages</subcategory>
 		<name>Entry page titles</name>
 		<module>Actions</module>
@@ -1553,12 +1636,31 @@
 				<action>getEntryPageUrls</action>
 			</row>
 		</relatedReports>
+		<metricsGoal>
+			<nb_conversions>Conversions</nb_conversions>
+			<nb_conversions_entry>Conversions</nb_conversions_entry>
+			<revenue_entry>Revenue</revenue_entry>
+		</metricsGoal>
+		<processedMetricsGoal>
+			<revenue_per_visit>Revenue per Visit</revenue_per_visit>
+			<revenue_per_entry>Revenue per Entry</revenue_per_entry>
+			<nb_conversions_entry_rate>Conversion Rate</nb_conversions_entry_rate>
+		</processedMetricsGoal>
+		<metricTypesGoal>
+			<revenue_per_visit>money</revenue_per_visit>
+			<nb_conversions>number</nb_conversions>
+			<conversion_rate>percent</conversion_rate>
+			<nb_conversions_entry>number</nb_conversions_entry>
+			<revenue_entry>money</revenue_entry>
+			<revenue_per_entry>number</revenue_per_entry>
+			<nb_conversions_entry_rate>percent</nb_conversions_entry_rate>
+		</metricTypesGoal>
 		
 		
 		<uniqueId>Actions_getEntryPageTitles</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Exit pages</subcategory>
 		<name>Exit pages</name>
 		<module>Actions</module>
@@ -1602,7 +1704,7 @@
 		<uniqueId>Actions_getExitPageUrls</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Exit pages</subcategory>
 		<name>Exit page titles</name>
 		<module>Actions</module>
@@ -1649,7 +1751,7 @@
 		<uniqueId>Actions_getExitPageTitles</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Page titles</subcategory>
 		<name>Page titles</name>
 		<module>Actions</module>
@@ -1695,12 +1797,29 @@
 				<action>getExitPageTitles</action>
 			</row>
 		</relatedReports>
+		<metricsGoal>
+			<nb_conversions>Conversions</nb_conversions>
+			<nb_conversions_attrib>Conversions</nb_conversions_attrib>
+			<revenue_attrib>Revenue</revenue_attrib>
+		</metricsGoal>
+		<processedMetricsGoal>
+			<revenue_per_visit>Revenue per Visit</revenue_per_visit>
+			<nb_conversions_page_rate>Viewed before conversion rate</nb_conversions_page_rate>
+		</processedMetricsGoal>
+		<metricTypesGoal>
+			<revenue_per_visit>money</revenue_per_visit>
+			<nb_conversions>number</nb_conversions>
+			<conversion_rate>percent</conversion_rate>
+			<nb_conversions_attrib>number</nb_conversions_attrib>
+			<revenue_attrib>money</revenue_attrib>
+			<nb_conversions_page_rate>percent</nb_conversions_page_rate>
+		</metricTypesGoal>
 		
 		
 		<uniqueId>Actions_getPageTitles</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Site Search</subcategory>
 		<name>Site Search Keywords</name>
 		<module>Actions</module>
@@ -1733,7 +1852,7 @@
 		<uniqueId>Actions_getSiteSearchKeywords</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Site Search</subcategory>
 		<name>Pages Following a Site Search</name>
 		<module>Actions</module>
@@ -1769,7 +1888,7 @@
 		<uniqueId>Actions_getPageUrlsFollowingSiteSearch</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Site Search</subcategory>
 		<name>Search Keywords with No Results</name>
 		<module>Actions</module>
@@ -1799,7 +1918,7 @@
 		<uniqueId>Actions_getSiteSearchNoResultKeywords</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Site Search</subcategory>
 		<name>Page Titles Following a Site Search</name>
 		<module>Actions</module>
@@ -1835,7 +1954,7 @@
 		<uniqueId>Actions_getPageTitlesFollowingSiteSearch</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Site Search</subcategory>
 		<name>Search Categories</name>
 		<module>Actions</module>
@@ -1863,7 +1982,7 @@
 		<uniqueId>Actions_getSiteSearchCategories</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Outlinks</subcategory>
 		<name>Outlinks</name>
 		<module>Actions</module>
@@ -1888,7 +2007,7 @@
 		<uniqueId>Actions_getOutlinks</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Downloads</subcategory>
 		<name>Downloads</name>
 		<module>Actions</module>
@@ -1913,7 +2032,7 @@
 		<uniqueId>Actions_getDownloads</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Events</subcategory>
 		<name>Event Categories</name>
 		<module>Events</module>
@@ -1927,6 +2046,8 @@
 		</dimensions>
 		<metrics>
 			<nb_events>Events</nb_events>
+			<nb_visits>Visits</nb_visits>
+			<nb_uniq_visitors>Unique visitors</nb_uniq_visitors>
 			<sum_event_value>Event value</sum_event_value>
 			<min_event_value>Minimum Event value</min_event_value>
 			<max_event_value>Maximum Event value</max_event_value>
@@ -1934,6 +2055,8 @@
 		</metrics>
 		<metricsDocumentation>
 			<nb_events>Total number of events</nb_events>
+			<nb_visits>The total number of visits where at least one event was triggered.</nb_visits>
+			<nb_uniq_visitors>The number of deduplicated visitors who triggered an event on your website. Every visitor is only counted once, even if they visit or trigger multiple events on the website.</nb_uniq_visitors>
 			<sum_event_value>The sum of event values</sum_event_value>
 			<min_event_value>The minimum value for this event</min_event_value>
 			<max_event_value>The maximum value for this event</max_event_value>
@@ -1945,6 +2068,8 @@
 		</processedMetrics>
 		<metricTypes>
 			<nb_events>number</nb_events>
+			<nb_visits>number</nb_visits>
+			<nb_uniq_visitors>number</nb_uniq_visitors>
 			<sum_event_value>number</sum_event_value>
 			<min_event_value>number</min_event_value>
 			<max_event_value>number</max_event_value>
@@ -1957,7 +2082,7 @@
 		<uniqueId>Events_getCategory</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Events</subcategory>
 		<name>Event Actions</name>
 		<module>Events</module>
@@ -1971,6 +2096,8 @@
 		</dimensions>
 		<metrics>
 			<nb_events>Events</nb_events>
+			<nb_visits>Visits</nb_visits>
+			<nb_uniq_visitors>Unique visitors</nb_uniq_visitors>
 			<sum_event_value>Event value</sum_event_value>
 			<min_event_value>Minimum Event value</min_event_value>
 			<max_event_value>Maximum Event value</max_event_value>
@@ -1978,6 +2105,8 @@
 		</metrics>
 		<metricsDocumentation>
 			<nb_events>Total number of events</nb_events>
+			<nb_visits>The total number of visits where at least one event was triggered.</nb_visits>
+			<nb_uniq_visitors>The number of deduplicated visitors who triggered an event on your website. Every visitor is only counted once, even if they visit or trigger multiple events on the website.</nb_uniq_visitors>
 			<sum_event_value>The sum of event values</sum_event_value>
 			<min_event_value>The minimum value for this event</min_event_value>
 			<max_event_value>The maximum value for this event</max_event_value>
@@ -1989,6 +2118,8 @@
 		</processedMetrics>
 		<metricTypes>
 			<nb_events>number</nb_events>
+			<nb_visits>number</nb_visits>
+			<nb_uniq_visitors>number</nb_uniq_visitors>
 			<sum_event_value>number</sum_event_value>
 			<min_event_value>number</min_event_value>
 			<max_event_value>number</max_event_value>
@@ -2001,7 +2132,7 @@
 		<uniqueId>Events_getAction</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Events</subcategory>
 		<name>Event Names</name>
 		<module>Events</module>
@@ -2015,6 +2146,8 @@
 		</dimensions>
 		<metrics>
 			<nb_events>Events</nb_events>
+			<nb_visits>Visits</nb_visits>
+			<nb_uniq_visitors>Unique visitors</nb_uniq_visitors>
 			<sum_event_value>Event value</sum_event_value>
 			<min_event_value>Minimum Event value</min_event_value>
 			<max_event_value>Maximum Event value</max_event_value>
@@ -2022,6 +2155,8 @@
 		</metrics>
 		<metricsDocumentation>
 			<nb_events>Total number of events</nb_events>
+			<nb_visits>The total number of visits where at least one event was triggered.</nb_visits>
+			<nb_uniq_visitors>The number of deduplicated visitors who triggered an event on your website. Every visitor is only counted once, even if they visit or trigger multiple events on the website.</nb_uniq_visitors>
 			<sum_event_value>The sum of event values</sum_event_value>
 			<min_event_value>The minimum value for this event</min_event_value>
 			<max_event_value>The maximum value for this event</max_event_value>
@@ -2033,6 +2168,8 @@
 		</processedMetrics>
 		<metricTypes>
 			<nb_events>number</nb_events>
+			<nb_visits>number</nb_visits>
+			<nb_uniq_visitors>number</nb_uniq_visitors>
 			<sum_event_value>number</sum_event_value>
 			<min_event_value>number</min_event_value>
 			<max_event_value>number</max_event_value>
@@ -2045,7 +2182,7 @@
 		<uniqueId>Events_getName</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Contents</subcategory>
 		<name>Content Name</name>
 		<module>Contents</module>
@@ -2076,7 +2213,7 @@
 		<uniqueId>Contents_getContentNames</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Contents</subcategory>
 		<name>Content Piece</name>
 		<module>Contents</module>
@@ -2107,7 +2244,7 @@
 		<uniqueId>Contents_getContentPieces</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Engagement</subcategory>
 		<name>Length of visits</name>
 		<module>VisitorInterest</module>
@@ -2128,7 +2265,7 @@
 		<uniqueId>VisitorInterest_getNumberOfVisitsPerVisitDuration</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Engagement</subcategory>
 		<name>Pages per visit</name>
 		<module>VisitorInterest</module>
@@ -2149,7 +2286,7 @@
 		<uniqueId>VisitorInterest_getNumberOfVisitsPerPage</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Engagement</subcategory>
 		<name>Visits by visit number</name>
 		<module>VisitorInterest</module>
@@ -2161,6 +2298,7 @@
 		</metrics>
 		<metricsDocumentation>
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
+			<nb_visits_percentage>The percentage of totals visits, where visitors had this amount of visits in total yet.</nb_visits_percentage>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_visits_percentage>% Visits</nb_visits_percentage>
@@ -2174,7 +2312,7 @@
 		<uniqueId>VisitorInterest_getNumberOfVisitsByVisitCount</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Engagement</subcategory>
 		<name>Visits by days since last visit</name>
 		<module>VisitorInterest</module>
@@ -2195,7 +2333,7 @@
 		<uniqueId>VisitorInterest_getNumberOfVisitsByDaysSinceLast</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Engagement</subcategory>
 		<name>Returning Visits</name>
 		<module>VisitFrequency</module>
@@ -2244,7 +2382,7 @@
 		<uniqueId>VisitFrequency_get</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>Performance</subcategory>
 		<name>Performance overview</name>
 		<module>PagePerformance</module>
@@ -2292,7 +2430,7 @@
 		<uniqueId>PagePerformance_get</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>customdimension3</subcategory>
 		<name>DimensionAction1</name>
 		<module>CustomDimensions</module>
@@ -2308,6 +2446,7 @@
 		<metricsDocumentation>
 			<nb_hits>The number of times this page was visited.</nb_hits>
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
+			<avg_time_on_dimension>Avg. Time on custom action dimension is the average time visitors spent on a specific custom action before moving to another tracked action. Calculated by summing the time spent on the action across all visits and dividing it by the number of times the action was performed.</avg_time_on_dimension>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
 			<exit_rate>The percentage of visits that left the website after viewing this page.</exit_rate>
 			<avg_time_generation>The average time it took to generate the page. This metric includes the time it took the server to generate the web page, plus the time it took for the visitor to download the response from the server. A lower 'Avg. generation time' means a faster website for your visitors!</avg_time_generation>
@@ -2332,7 +2471,7 @@
 		<uniqueId>CustomDimensions_getCustomDimension_idDimension--3</uniqueId>
 	</row>
 	<row>
-		<category>Actions</category>
+		<category>Behaviour</category>
 		<subcategory>customdimension4</subcategory>
 		<name>RenamedDimAction2</name>
 		<module>CustomDimensions</module>
@@ -2348,6 +2487,7 @@
 		<metricsDocumentation>
 			<nb_hits>The number of times this page was visited.</nb_hits>
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
+			<avg_time_on_dimension>Avg. Time on custom action dimension is the average time visitors spent on a specific custom action before moving to another tracked action. Calculated by summing the time spent on the action across all visits and dividing it by the number of times the action was performed.</avg_time_on_dimension>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
 			<exit_rate>The percentage of visits that left the website after viewing this page.</exit_rate>
 			<avg_time_generation>The average time it took to generate the page. This metric includes the time it took the server to generate the web page, plus the time it took for the visitor to download the response from the server. A lower 'Avg. generation time' means a faster website for your visitors!</avg_time_generation>
@@ -2372,7 +2512,7 @@
 		<uniqueId>CustomDimensions_getCustomDimension_idDimension--4</uniqueId>
 	</row>
 	<row>
-		<category>Referrers</category>
+		<category>Acquisition</category>
 		<name>Referrers Overview</name>
 		<module>Referrers</module>
 		<action>get</action>
@@ -2382,6 +2522,8 @@
 			<Referrers_visitorsFromSearchEngines_percent>Percent of Visitors from Search Engines</Referrers_visitorsFromSearchEngines_percent>
 			<Referrers_visitorsFromSocialNetworks>Visitors from Social Networks</Referrers_visitorsFromSocialNetworks>
 			<Referrers_visitorsFromSocialNetworks_percent>Percent of Visitors from Social Networks</Referrers_visitorsFromSocialNetworks_percent>
+			<Referrers_visitorsFromAIAssistants>Visitors from AI Assistants</Referrers_visitorsFromAIAssistants>
+			<Referrers_visitorsFromAIAssistants_percent>Percent of Visitors from AI Assistants</Referrers_visitorsFromAIAssistants_percent>
 			<Referrers_visitorsFromDirectEntry>Visitors from Direct Entry</Referrers_visitorsFromDirectEntry>
 			<Referrers_visitorsFromDirectEntry_percent>Percent of Visitors from Direct Entry</Referrers_visitorsFromDirectEntry_percent>
 			<Referrers_visitorsFromWebsites>Visitors from Websites</Referrers_visitorsFromWebsites>
@@ -2390,15 +2532,19 @@
 			<Referrers_visitorsFromCampaigns_percent>Percent of Visitors from Campaigns</Referrers_visitorsFromCampaigns_percent>
 			<Referrers_distinctSearchEngines>Distinct search engines</Referrers_distinctSearchEngines>
 			<Referrers_distinctSocialNetworks>Distinct social networks</Referrers_distinctSocialNetworks>
+			<Referrers_distinctAIAssistants>Distinct AI assistants</Referrers_distinctAIAssistants>
 			<Referrers_distinctWebsites>Distinct websites</Referrers_distinctWebsites>
 			<Referrers_distinctKeywords>Distinct keywords</Referrers_distinctKeywords>
 			<Referrers_distinctCampaigns>Distinct campaigns</Referrers_distinctCampaigns>
+			<Referrers_distinctWebsitesUrls>Distinct website URLs</Referrers_distinctWebsitesUrls>
 		</metrics>
 		<metricTypes>
 			<Referrers_visitorsFromSearchEngines>number</Referrers_visitorsFromSearchEngines>
 			<Referrers_visitorsFromSearchEngines_percent>percent</Referrers_visitorsFromSearchEngines_percent>
 			<Referrers_visitorsFromSocialNetworks>number</Referrers_visitorsFromSocialNetworks>
 			<Referrers_visitorsFromSocialNetworks_percent>percent</Referrers_visitorsFromSocialNetworks_percent>
+			<Referrers_visitorsFromAIAssistants>number</Referrers_visitorsFromAIAssistants>
+			<Referrers_visitorsFromAIAssistants_percent>percent</Referrers_visitorsFromAIAssistants_percent>
 			<Referrers_visitorsFromDirectEntry>number</Referrers_visitorsFromDirectEntry>
 			<Referrers_visitorsFromDirectEntry_percent>percent</Referrers_visitorsFromDirectEntry_percent>
 			<Referrers_visitorsFromWebsites>number</Referrers_visitorsFromWebsites>
@@ -2407,16 +2553,18 @@
 			<Referrers_visitorsFromCampaigns_percent>percent</Referrers_visitorsFromCampaigns_percent>
 			<Referrers_distinctSearchEngines>number</Referrers_distinctSearchEngines>
 			<Referrers_distinctSocialNetworks>number</Referrers_distinctSocialNetworks>
+			<Referrers_distinctAIAssistants>number</Referrers_distinctAIAssistants>
 			<Referrers_distinctWebsites>number</Referrers_distinctWebsites>
 			<Referrers_distinctKeywords>number</Referrers_distinctKeywords>
 			<Referrers_distinctCampaigns>number</Referrers_distinctCampaigns>
+			<Referrers_distinctWebsitesUrls>number</Referrers_distinctWebsitesUrls>
 		</metricTypes>
 		
 		
 		<uniqueId>Referrers_get</uniqueId>
 	</row>
 	<row>
-		<category>Referrers</category>
+		<category>Acquisition</category>
 		<subcategory>All Channels</subcategory>
 		<name>Channel Type</name>
 		<module>Referrers</module>
@@ -2437,7 +2585,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -2473,7 +2621,7 @@
 		<uniqueId>Referrers_getReferrerType</uniqueId>
 	</row>
 	<row>
-		<category>Referrers</category>
+		<category>Acquisition</category>
 		<subcategory>All Channels</subcategory>
 		<name>All Channels</name>
 		<module>Referrers</module>
@@ -2494,7 +2642,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -2516,7 +2664,7 @@
 		<uniqueId>Referrers_getAll</uniqueId>
 	</row>
 	<row>
-		<category>Referrers</category>
+		<category>Acquisition</category>
 		<subcategory>Search Engines &amp; Keywords</subcategory>
 		<name>Keywords</name>
 		<module>Referrers</module>
@@ -2541,7 +2689,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -2577,7 +2725,7 @@
 		<uniqueId>Referrers_getKeywords</uniqueId>
 	</row>
 	<row>
-		<category>Referrers</category>
+		<category>Acquisition</category>
 		<subcategory>Search Engines &amp; Keywords</subcategory>
 		<name>Search Engines</name>
 		<module>Referrers</module>
@@ -2602,7 +2750,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -2638,7 +2786,7 @@
 		<uniqueId>Referrers_getSearchEngines</uniqueId>
 	</row>
 	<row>
-		<category>Referrers</category>
+		<category>Acquisition</category>
 		<subcategory>Websites</subcategory>
 		<name>Websites</name>
 		<module>Referrers</module>
@@ -2663,7 +2811,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -2699,13 +2847,13 @@
 		<uniqueId>Referrers_getWebsites</uniqueId>
 	</row>
 	<row>
-		<category>Referrers</category>
+		<category>Acquisition</category>
 		<subcategory>Social Networks</subcategory>
 		<name>Social Networks</name>
 		<module>Referrers</module>
 		<action>getSocials</action>
 		<dimension>Social network</dimension>
-		<documentation>In this table, you can see which websites referred visitors to your site. &lt;br /&gt; By clicking on a row in the table, you can see which URLs the links to your website were on.</documentation>
+		<documentation>This report shows which social networks led visitors to your website.&lt;br /&gt;By clicking on a row in the table, you can see from which social network pages visitors came to your website.</documentation>
 		<dimensions>
 			<Referrers_SocialNetwork>Social network</Referrers_SocialNetwork>
 			<Referrers_WebsitePage>Website Page</Referrers_WebsitePage>
@@ -2724,13 +2872,12 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
 			<avg_time_on_site>Avg. Time on Website</avg_time_on_site>
 			<bounce_rate>Bounce Rate</bounce_rate>
-			<conversion_rate>Conversion Rate</conversion_rate>
 		</processedMetrics>
 		<metricTypes>
 			<nb_visits>number</nb_visits>
@@ -2743,12 +2890,86 @@
 			<conversion_rate>percent</conversion_rate>
 		</metricTypes>
 		<actionToLoadSubTables>getUrlsForSocial</actionToLoadSubTables>
+		<metricsGoal>
+			<nb_conversions>Conversions</nb_conversions>
+			<revenue>Revenue</revenue>
+		</metricsGoal>
+		<processedMetricsGoal>
+			<revenue_per_visit>Revenue per Visit</revenue_per_visit>
+		</processedMetricsGoal>
+		<metricTypesGoal>
+			<revenue_per_visit>money</revenue_per_visit>
+			<nb_conversions>number</nb_conversions>
+			<conversion_rate>percent</conversion_rate>
+			<revenue>money</revenue>
+		</metricTypesGoal>
 		
 		
 		<uniqueId>Referrers_getSocials</uniqueId>
 	</row>
 	<row>
-		<category>Referrers</category>
+		<category>Acquisition</category>
+		<subcategory>AI Assistants</subcategory>
+		<name>AI Assistants</name>
+		<module>Referrers</module>
+		<action>getAIAssistants</action>
+		<dimension>AI Assistant</dimension>
+		<documentation>This report shows which AI assistants led visitors to your website.&lt;br /&gt;By clicking on a row in the table, you can see from which AI assistant pages visitors came to your website.</documentation>
+		<dimensions>
+			<Referrers_AIAssistant>AI Assistant</Referrers_AIAssistant>
+			<Actions_EntryPageUrl>Entry Page URL</Actions_EntryPageUrl>
+		</dimensions>
+		<metrics>
+			<nb_visits>Visits</nb_visits>
+			<nb_uniq_visitors>Unique visitors</nb_uniq_visitors>
+			<nb_actions>Actions</nb_actions>
+			<nb_users>Users</nb_users>
+		</metrics>
+		<metricsDocumentation>
+			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
+			<nb_uniq_visitors>The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day.</nb_uniq_visitors>
+			<nb_actions>The number of actions performed by your visitors. Actions can be page views, internal site searches, downloads or outlinks.</nb_actions>
+			<nb_users>The number of users logged in your website. It is the number of unique active users that have a User ID set (via the Tracking code function 'setUserId').</nb_users>
+			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
+			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
+			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
+		</metricsDocumentation>
+		<processedMetrics>
+			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
+			<avg_time_on_site>Avg. Time on Website</avg_time_on_site>
+			<bounce_rate>Bounce Rate</bounce_rate>
+		</processedMetrics>
+		<metricTypes>
+			<nb_visits>number</nb_visits>
+			<nb_uniq_visitors>number</nb_uniq_visitors>
+			<nb_actions>number</nb_actions>
+			<nb_users>number</nb_users>
+			<nb_actions_per_visit>number</nb_actions_per_visit>
+			<avg_time_on_site>duration_s</avg_time_on_site>
+			<bounce_rate>percent</bounce_rate>
+			<conversion_rate>percent</conversion_rate>
+		</metricTypes>
+		<actionToLoadSubTables>getEntryPageUrlsForAIAssistant</actionToLoadSubTables>
+		<metricsGoal>
+			<nb_conversions>Conversions</nb_conversions>
+			<revenue>Revenue</revenue>
+		</metricsGoal>
+		<processedMetricsGoal>
+			<revenue_per_visit>Revenue per Visit</revenue_per_visit>
+		</processedMetricsGoal>
+		<metricTypesGoal>
+			<revenue_per_visit>money</revenue_per_visit>
+			<nb_conversions>number</nb_conversions>
+			<conversion_rate>percent</conversion_rate>
+			<revenue>money</revenue>
+		</metricTypesGoal>
+		
+		
+		<uniqueId>Referrers_getAIAssistants</uniqueId>
+	</row>
+	<row>
+		<category>Acquisition</category>
 		<subcategory>Campaigns</subcategory>
 		<name>Campaigns</name>
 		<module>Referrers</module>
@@ -2774,7 +2995,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -2830,7 +3051,8 @@
 			<items>Purchased Products</items>
 		</metrics>
 		<metricsDocumentation>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<nb_visits_converted>Number of visits where at least one goal was successfully converted.</nb_visits_converted>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<avg_order_revenue>Average Order Value</avg_order_revenue>
@@ -2906,7 +3128,7 @@
 			<items>Products left in cart</items>
 		</metrics>
 		<metricsDocumentation>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<avg_order_revenue>Average Order Value</avg_order_revenue>
@@ -2976,6 +3198,15 @@
 			<orders>Unique Purchases</orders>
 			<nb_visits>Visits</nb_visits>
 		</metrics>
+		<metricsDocumentation>
+			<revenue>The total revenue generated by Product sales. Excludes tax, shipping and discount.</revenue>
+			<quantity>Quantity is the total number of products sold for each Product Name.</quantity>
+			<orders>The total number of Ecommerce orders which contained this Product Name at least once.</orders>
+			<avg_price>The average price for this Product Name.</avg_price>
+			<avg_quantity>The average quantity of this Product Name sold in Ecommerce orders.</avg_quantity>
+			<nb_visits>The number of visits on the Product/Category page. This is also used to process the Product Name conversion rate. This metric is in the report if Ecommerce view tracking was setup on Product/Category pages.</nb_visits>
+			<conversion_rate>The Product Name conversion rate is the number of orders containing this product divided by number of visits on the product page.</conversion_rate>
+		</metricsDocumentation>
 		<processedMetrics>
 			<avg_price>Average Price</avg_price>
 			<avg_quantity>Average Quantity</avg_quantity>
@@ -3008,6 +3239,15 @@
 			<orders>Unique Purchases</orders>
 			<nb_visits>Visits</nb_visits>
 		</metrics>
+		<metricsDocumentation>
+			<revenue>The total revenue generated by Product sales. Excludes tax, shipping and discount.</revenue>
+			<quantity>Quantity is the total number of products sold for each Product SKU.</quantity>
+			<orders>The total number of Ecommerce orders which contained this Product SKU at least once.</orders>
+			<avg_price>The average price for this Product SKU.</avg_price>
+			<avg_quantity>The average quantity of this Product SKU sold in Ecommerce orders.</avg_quantity>
+			<nb_visits>The number of visits on the Product/Category page. This is also used to process the Product SKU conversion rate. This metric is in the report if Ecommerce view tracking was setup on Product/Category pages.</nb_visits>
+			<conversion_rate>The Product SKU conversion rate is the number of orders containing this product divided by number of visits on the product page.</conversion_rate>
+		</metricsDocumentation>
 		<processedMetrics>
 			<avg_price>Average Price</avg_price>
 			<avg_quantity>Average Quantity</avg_quantity>
@@ -3040,6 +3280,15 @@
 			<orders>Unique Purchases</orders>
 			<nb_visits>Visits</nb_visits>
 		</metrics>
+		<metricsDocumentation>
+			<revenue>The total revenue generated by Product sales. Excludes tax, shipping and discount.</revenue>
+			<quantity>Quantity is the total number of products sold for each Product Category.</quantity>
+			<orders>The total number of Ecommerce orders which contained this Product Category at least once.</orders>
+			<avg_price>The average price for this Product Category.</avg_price>
+			<avg_quantity>The average quantity of this Product Category sold in Ecommerce orders.</avg_quantity>
+			<nb_visits>The number of visits on the Product/Category page. This is also used to process the Product Category conversion rate. This metric is in the report if Ecommerce view tracking was setup on Product/Category pages.</nb_visits>
+			<conversion_rate>The Product Category conversion rate is the number of orders containing this product divided by number of visits on the product page.</conversion_rate>
+		</metricsDocumentation>
 		<processedMetrics>
 			<avg_price>Average Price</avg_price>
 			<avg_quantity>Average Quantity</avg_quantity>
@@ -3071,7 +3320,8 @@
 			<revenue>Revenue</revenue>
 		</metrics>
 		<metricsDocumentation>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<nb_visits_converted>Number of visits where at least one goal was successfully converted.</nb_visits_converted>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<conversion_rate>Conversion Rate</conversion_rate>
@@ -3097,6 +3347,9 @@
 		<metrics>
 			<nb_conversions>Conversions</nb_conversions>
 		</metrics>
+		<metricsDocumentation>
+			<nb_conversions>The total number of goal conversions that occurred within each visit. Represents how many visits took place before converting.</nb_conversions>
+		</metricsDocumentation>
 		<metricTypes>
 			<nb_conversions>number</nb_conversions>
 		</metricTypes>
@@ -3128,6 +3381,9 @@
 		<metrics>
 			<nb_conversions>Conversions</nb_conversions>
 		</metrics>
+		<metricsDocumentation>
+			<nb_conversions>The total number of goal conversions that occurred within each time range. Represents how many days passed between a visitor's first interaction and their conversion.</nb_conversions>
+		</metricsDocumentation>
 		<metricTypes>
 			<nb_conversions>number</nb_conversions>
 		</metricTypes>
@@ -3164,7 +3420,8 @@
 			<revenue>Revenue</revenue>
 		</metrics>
 		<metricsDocumentation>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<nb_visits_converted>Number of visits where at least one goal was successfully converted.</nb_visits_converted>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<conversion_rate>Conversion Rate</conversion_rate>
@@ -3193,6 +3450,9 @@
 		<metrics>
 			<nb_conversions>Conversions</nb_conversions>
 		</metrics>
+		<metricsDocumentation>
+			<nb_conversions>The total number of goal conversions that occurred within each visit. Represents how many visits took place before converting.</nb_conversions>
+		</metricsDocumentation>
 		<metricTypes>
 			<nb_conversions>number</nb_conversions>
 		</metricTypes>
@@ -3214,12 +3474,295 @@
 		<metrics>
 			<nb_conversions>Conversions</nb_conversions>
 		</metrics>
+		<metricsDocumentation>
+			<nb_conversions>The total number of goal conversions that occurred within each time range. Represents how many days passed between a visitor's first interaction and their conversion.</nb_conversions>
+		</metricsDocumentation>
 		<metricTypes>
 			<nb_conversions>number</nb_conversions>
 		</metricTypes>
 		<constantRowsCount>1</constantRowsCount>
 		
 		<uniqueId>Goals_getDaysToConversion_idGoal--0</uniqueId>
+	</row>
+	<row>
+		<category>AI Assistants</category>
+		<subcategory>AI Chatbots Overview</subcategory>
+		<name>AI Chatbots Overview</name>
+		<module>BotTracking</module>
+		<action>get</action>
+		<metrics>
+			<BotTracking_AIChatbotsRequests>Requests</BotTracking_AIChatbotsRequests>
+			<BotTracking_AIChatbotsAcquiredVisits>Acquired visits</BotTracking_AIChatbotsAcquiredVisits>
+			<BotTracking_AIChatbotsUniquePageUrls>Unique page URLs</BotTracking_AIChatbotsUniquePageUrls>
+			<BotTracking_AIChatbotsNotFoundRequests>Not found requests</BotTracking_AIChatbotsNotFoundRequests>
+			<BotTracking_AIChatbotsUniqueChatbots>Unique AI chatbots</BotTracking_AIChatbotsUniqueChatbots>
+			<BotTracking_AIChatbotsUniqueDocumentUrls>Unique document URLs</BotTracking_AIChatbotsUniqueDocumentUrls>
+			<BotTracking_AIChatbotsServerErrorRequests>Server error (5xx) requests</BotTracking_AIChatbotsServerErrorRequests>
+		</metrics>
+		<metricsDocumentation>
+			<BotTracking_AIChatbotsRequests>Total number of bot requests recorded during the selected period. Includes both page and document URLs.</BotTracking_AIChatbotsRequests>
+			<BotTracking_AIChatbotsAcquiredVisits>Visits that started after someone clicked from an AI chatbot (Referrers → AI Assistants).</BotTracking_AIChatbotsAcquiredVisits>
+			<BotTracking_AIChatbotsUniquePageUrls>Distinct page URLs requested by AI chatbots.</BotTracking_AIChatbotsUniquePageUrls>
+			<BotTracking_AIChatbotsNotFoundRequests>Number of bot requests that returned an HTTP 404 or 410 response, including document URLs.</BotTracking_AIChatbotsNotFoundRequests>
+			<BotTracking_AIChatbotsUniqueChatbots>AI chatbot user agents detected during the selected period.</BotTracking_AIChatbotsUniqueChatbots>
+			<BotTracking_AIChatbotsUniqueDocumentUrls>Distinct download or document URLs requested by AI chatbots.</BotTracking_AIChatbotsUniqueDocumentUrls>
+			<BotTracking_AIChatbotsServerErrorRequests>Number of bot requests that returned an HTTP 5xx response, including document URLs.</BotTracking_AIChatbotsServerErrorRequests>
+			<BotTracking_AIChatbotsClickThroughRate>Share of AI chatbot requests that resulted in acquired visits (acquired visits ÷ requests).</BotTracking_AIChatbotsClickThroughRate>
+		</metricsDocumentation>
+		<processedMetrics>
+			<BotTracking_AIChatbotsClickThroughRate>Click-through rate</BotTracking_AIChatbotsClickThroughRate>
+		</processedMetrics>
+		<metricTypes>
+			<BotTracking_AIChatbotsRequests>number</BotTracking_AIChatbotsRequests>
+			<BotTracking_AIChatbotsAcquiredVisits>number</BotTracking_AIChatbotsAcquiredVisits>
+			<BotTracking_AIChatbotsUniquePageUrls>number</BotTracking_AIChatbotsUniquePageUrls>
+			<BotTracking_AIChatbotsNotFoundRequests>number</BotTracking_AIChatbotsNotFoundRequests>
+			<BotTracking_AIChatbotsUniqueChatbots>number</BotTracking_AIChatbotsUniqueChatbots>
+			<BotTracking_AIChatbotsUniqueDocumentUrls>number</BotTracking_AIChatbotsUniqueDocumentUrls>
+			<BotTracking_AIChatbotsServerErrorRequests>number</BotTracking_AIChatbotsServerErrorRequests>
+			<BotTracking_AIChatbotsClickThroughRate>percent</BotTracking_AIChatbotsClickThroughRate>
+		</metricTypes>
+		
+		
+		<uniqueId>BotTracking_get</uniqueId>
+	</row>
+	<row>
+		<category>AI Assistants</category>
+		<subcategory>AI Chatbots Overview</subcategory>
+		<name>AI Chatbots</name>
+		<module>BotTracking</module>
+		<action>getAIChatbotRequests</action>
+		<dimension>AI Chatbot Name</dimension>
+		<documentation>Discover which AI chatbots are crawling your site and how many hits each one generates. Expand a chatbot to review the most frequently requested pages or documents.</documentation>
+		<dimensions>
+			<BotTracking_AIChatbotName>AI Chatbot Name</BotTracking_AIChatbotName>
+			<BotTracking_PageUrl>Page URL</BotTracking_PageUrl>
+		</dimensions>
+		<metrics>
+			<requests>Requests</requests>
+			<page_requests>Page Requests</page_requests>
+			<document_requests>Document Requests</document_requests>
+			<visits_acquired>Acquired visits</visits_acquired>
+		</metrics>
+		<metricsDocumentation>
+			<requests>Total number of bot requests recorded during the selected period. Includes both page and document URLs.</requests>
+			<page_requests>Total number of bot requests to page URLs recorded during the selected period.</page_requests>
+			<document_requests>Total number of bot requests to document URLs recorded during the selected period.</document_requests>
+			<visits_acquired>Visits that started after someone clicked from an AI chatbot (Referrers → AI Assistants).</visits_acquired>
+		</metricsDocumentation>
+		<metricTypes>
+			<requests>number</requests>
+			<page_requests>number</page_requests>
+			<document_requests>number</document_requests>
+			<visits_acquired>number</visits_acquired>
+		</metricTypes>
+		<actionToLoadSubTables>getPageUrlsForAIChatbot</actionToLoadSubTables>
+		
+		
+		<uniqueId>BotTracking_getAIChatbotRequests</uniqueId>
+	</row>
+	<row>
+		<category>AI Assistants</category>
+		<subcategory>AI Chatbots Content Requests</subcategory>
+		<name>Pages</name>
+		<module>BotTracking</module>
+		<action>getAIChatbotContentPages</action>
+		<dimension>Page URL</dimension>
+		<documentation>This report shows which HTML page URLs were accessed by AI Assistants (like ChatGPT) to retrieve real-time information during user chats. It helps you identify which parts of your website are being referenced by AI systems, offering insights into your site’s visibility in AI-assisted interactions and potential content opportunities. It focuses only on visits to standard web pages, excluding file downloads such as PDFs, Word, or Excel documents — which are covered in a separate report dedicated to document access.
+It’s important to note that none of these pages were actually viewed by humans in the traditional way — all requests originate from AI assistants fetching content automatically.
+Currently, these reports exclusively include requests from AI bots that do not execute JavaScript. They do not include traffic from AI crawlers used for training AI models or from AI agents capable of executing JavaScript.</documentation>
+		<metrics>
+			<requests>Requests</requests>
+			<server_error_5xx_requests>5XX Requests</server_error_5xx_requests>
+			<page_not_found_404_requests>Page Not Found (404) Requests</page_not_found_404_requests>
+		</metrics>
+		<metricsDocumentation>
+			<requests>Total number of bot requests to page URLs recorded during the selected period.</requests>
+			<server_error_5xx_requests>Number of bot requests that returned an HTTP 5xx (server error) response.</server_error_5xx_requests>
+			<page_not_found_404_requests>Number of bot requests that returned an HTTP 404 (Not Found) or 410 (Gone) response.</page_not_found_404_requests>
+			<avg_server_time>Average time the server took to respond to these requests. This relies on server or CDN tracking and may be empty if it is not configured, or empty for a URL when none of its requests carried this data.</avg_server_time>
+			<avg_response_size>Average size of the responses returned for these requests. This relies on server or CDN tracking and may be empty if it is not configured, or empty for a URL when none of its requests carried this data.</avg_response_size>
+		</metricsDocumentation>
+		<processedMetrics>
+			<avg_server_time>Avg. Server Time</avg_server_time>
+			<avg_response_size>Avg. Response Size</avg_response_size>
+		</processedMetrics>
+		<metricTypes>
+			<requests>number</requests>
+			<server_error_5xx_requests>number</server_error_5xx_requests>
+			<page_not_found_404_requests>number</page_not_found_404_requests>
+			<avg_server_time>duration_s</avg_server_time>
+			<avg_response_size>byte</avg_response_size>
+		</metricTypes>
+		
+		
+		<uniqueId>BotTracking_getAIChatbotContentPages</uniqueId>
+	</row>
+	<row>
+		<category>AI Assistants</category>
+		<subcategory>AI Chatbots Content Requests</subcategory>
+		<name>Documents</name>
+		<module>BotTracking</module>
+		<action>getAIChatbotContentDocuments</action>
+		<dimension>Document URL</dimension>
+		<documentation>This report shows which document URLs were accessed by AI Chatbots (like ChatGPT) to retrieve real-time information during user chats. It helps you identify which parts of your website are being referenced by AI systems, offering insights into your site’s visibility in AI-assisted interactions and potential content opportunities. It focuses only on visits to documents and media files like PDF, Word, Excel and MP4, excluding HTML page URLs — which are covered in a separate report dedicated to pages.
+It’s important to note that none of these documents were actually viewed by humans in the traditional way — all requests originate from AI assistants fetching content automatically.
+Currently, these reports exclusively include requests from AI chatbots that do not execute JavaScript. They do not include traffic from AI crawlers used for training AI models or from AI agents capable of executing JavaScript.</documentation>
+		<metrics>
+			<requests>Requests</requests>
+			<server_error_5xx_requests>5XX Requests</server_error_5xx_requests>
+			<page_not_found_404_requests>Page Not Found (404) Requests</page_not_found_404_requests>
+		</metrics>
+		<metricsDocumentation>
+			<requests>Total number of bot requests to document URLs recorded during the selected period.</requests>
+			<server_error_5xx_requests>Number of bot requests that returned an HTTP 5xx (server error) response.</server_error_5xx_requests>
+			<page_not_found_404_requests>Number of bot requests that returned an HTTP 404 (Not Found) or 410 (Gone) response.</page_not_found_404_requests>
+			<avg_server_time>Average time the server took to respond to these requests. This relies on server or CDN tracking and may be empty if it is not configured, or empty for a URL when none of its requests carried this data.</avg_server_time>
+			<avg_response_size>Average size of the responses returned for these requests. This relies on server or CDN tracking and may be empty if it is not configured, or empty for a URL when none of its requests carried this data.</avg_response_size>
+		</metricsDocumentation>
+		<processedMetrics>
+			<avg_server_time>Avg. Server Time</avg_server_time>
+			<avg_response_size>Avg. Response Size</avg_response_size>
+		</processedMetrics>
+		<metricTypes>
+			<requests>number</requests>
+			<server_error_5xx_requests>number</server_error_5xx_requests>
+			<page_not_found_404_requests>number</page_not_found_404_requests>
+			<avg_server_time>duration_s</avg_server_time>
+			<avg_response_size>byte</avg_response_size>
+		</metricTypes>
+		
+		
+		<uniqueId>BotTracking_getAIChatbotContentDocuments</uniqueId>
+	</row>
+	<row>
+		<category>AI Assistants</category>
+		<subcategory>AI Chatbots Content Requests</subcategory>
+		<name>Broken Pages and Documents</name>
+		<module>BotTracking</module>
+		<action>getAIChatbotBrokenContent</action>
+		<dimension>URL</dimension>
+		<documentation>This report lists broken page URLs and document URLs (such as PDFs, Word, or Excel files) that were accessed by AI Chatbots (like ChatGPT) but returned errors or were unavailable. It helps identify missing or inaccessible content that LLMs attempted to fetch, allowing you to fix broken links and improve your site’s reliability and discoverability.</documentation>
+		<metrics>
+			<total_broken_requests>Total Broken Requests</total_broken_requests>
+			<server_error_5xx_requests>5XX Requests</server_error_5xx_requests>
+			<page_not_found_404_requests>Page Not Found (404) Requests</page_not_found_404_requests>
+		</metrics>
+		<metricsDocumentation>
+			<total_broken_requests>Number of bot requests that returned an HTTP 404 (Not Found), 410 (Gone), or 5xx (server error) response.</total_broken_requests>
+			<server_error_5xx_requests>Number of bot requests that returned an HTTP 5xx (server error) response.</server_error_5xx_requests>
+			<page_not_found_404_requests>Number of bot requests that returned an HTTP 404 (Not Found) or 410 (Gone) response.</page_not_found_404_requests>
+		</metricsDocumentation>
+		<metricTypes>
+			<total_broken_requests>number</total_broken_requests>
+			<server_error_5xx_requests>number</server_error_5xx_requests>
+			<page_not_found_404_requests>number</page_not_found_404_requests>
+		</metricTypes>
+		
+		
+		<uniqueId>BotTracking_getAIChatbotBrokenContent</uniqueId>
+	</row>
+	<row>
+		<category>AI Assistants</category>
+		<subcategory>AI Chatbots Content Requests</subcategory>
+		<name>Human-Favoured Pages</name>
+		<module>BotTracking</module>
+		<action>getAIChatbotHumanFavouredPages</action>
+		<dimension>Page URL</dimension>
+		<documentation>Shows pages that receive significantly more visits from humans than from AI chatbots. Useful for identifying content that resonates strongly with real users but is underrepresented in AI-driven traffic or recommendations.</documentation>
+		<metrics>
+			<unique_human_pageviews>Unique Human Pageviews</unique_human_pageviews>
+			<ai_chatbot_requests>AI Chatbot Requests</ai_chatbot_requests>
+			<discrepancy_score>Discrepancy Score</discrepancy_score>
+		</metrics>
+		<metricsDocumentation>
+			<unique_human_pageviews>The number of visits during which real users viewed this URL at least once. Traffic from AI chatbots and other bots is excluded.</unique_human_pageviews>
+			<ai_chatbot_requests>The total number of times this URL was requested by AI chatbots during the selected period.</ai_chatbot_requests>
+			<discrepancy_score>A score from 0 to 100 that combines how strongly this page leans towards humans (how much more it is visited by humans than requested by AI chatbots) with how much human traffic it has relative to the most-visited page. Higher means humans engage with it far more than AI chatbots do; pages that are balanced or AI-leaning score 0.</discrepancy_score>
+		</metricsDocumentation>
+		<metricTypes>
+			<unique_human_pageviews>number</unique_human_pageviews>
+			<ai_chatbot_requests>number</ai_chatbot_requests>
+			<discrepancy_score>number</discrepancy_score>
+		</metricTypes>
+		
+		
+		<uniqueId>BotTracking_getAIChatbotHumanFavouredPages</uniqueId>
+	</row>
+	<row>
+		<category>AI Assistants</category>
+		<subcategory>AI Chatbots Content Requests</subcategory>
+		<name>AI-Favoured Pages</name>
+		<module>BotTracking</module>
+		<action>getAIChatbotAIFavouredPages</action>
+		<dimension>Page URL</dimension>
+		<documentation>Shows pages that are frequently requested by AI chatbots but less often visited by humans. Useful for discovering content that AI systems surface or reference but that doesn't yet attract much direct human engagement.</documentation>
+		<metrics>
+			<ai_chatbot_requests>AI Chatbot Requests</ai_chatbot_requests>
+			<unique_human_pageviews>Unique Human Pageviews</unique_human_pageviews>
+			<discrepancy_score>Discrepancy Score</discrepancy_score>
+		</metrics>
+		<metricsDocumentation>
+			<ai_chatbot_requests>The total number of times this URL was requested by AI chatbots during the selected period.</ai_chatbot_requests>
+			<unique_human_pageviews>The number of visits during which real users viewed this URL at least once. Traffic from AI chatbots and other bots is excluded.</unique_human_pageviews>
+			<discrepancy_score>A score from 0 to 100 that combines how strongly this page leans towards AI chatbots (how much more it is requested by chatbots than visited by humans) with how much chatbot traffic it has relative to the most-requested page. Higher means AI chatbots focus on it far more than humans do; pages that are balanced or human-leaning score 0.</discrepancy_score>
+		</metricsDocumentation>
+		<metricTypes>
+			<ai_chatbot_requests>number</ai_chatbot_requests>
+			<unique_human_pageviews>number</unique_human_pageviews>
+			<discrepancy_score>number</discrepancy_score>
+		</metricTypes>
+		
+		
+		<uniqueId>BotTracking_getAIChatbotAIFavouredPages</uniqueId>
+	</row>
+	<row>
+		<category>AI Assistants</category>
+		<subcategory>AI Agents Overview</subcategory>
+		<name>AI Agent Visits</name>
+		<module>AIAgents</module>
+		<action>get</action>
+		<metrics>
+			<nb_visits_ai_agent>AI Agent Visits</nb_visits_ai_agent>
+			<nb_actions_ai_agent>Actions by AI Agent Visits</nb_actions_ai_agent>
+			<nb_uniq_visitors_ai_agent>Unique AI Agent Visitors</nb_uniq_visitors_ai_agent>
+			<nb_users_ai_agent>AI Agent Users</nb_users_ai_agent>
+			<max_actions_ai_agent>Maximum Actions in AI Agent Visit</max_actions_ai_agent>
+			<nb_visits_human>Human Visits</nb_visits_human>
+			<nb_actions_human>Actions by Human Visits</nb_actions_human>
+			<nb_uniq_visitors_human>Unique Human Visitors</nb_uniq_visitors_human>
+			<nb_users_human>Human Users</nb_users_human>
+			<max_actions_human>Maximum Actions in one Human Visit</max_actions_human>
+		</metrics>
+		<processedMetrics>
+			<avg_time_on_site_ai_agent>Avg. Duration of an AI Agent Visit (in sec)</avg_time_on_site_ai_agent>
+			<nb_actions_per_visit_ai_agent>Avg. Actions per AI Agent Visit</nb_actions_per_visit_ai_agent>
+			<bounce_rate_ai_agent>Bounce Rate for AI Agent Visits</bounce_rate_ai_agent>
+			<avg_time_on_site_human>Avg. Duration of a Human Visit (in sec)</avg_time_on_site_human>
+			<nb_actions_per_visit_human>Avg. Actions per Human Visit</nb_actions_per_visit_human>
+			<bounce_rate_human>Bounce Rate for Human Visits</bounce_rate_human>
+		</processedMetrics>
+		<metricTypes>
+			<nb_visits_ai_agent>number</nb_visits_ai_agent>
+			<nb_actions_ai_agent>number</nb_actions_ai_agent>
+			<nb_uniq_visitors_ai_agent>number</nb_uniq_visitors_ai_agent>
+			<nb_users_ai_agent>number</nb_users_ai_agent>
+			<max_actions_ai_agent>number</max_actions_ai_agent>
+			<nb_visits_human>number</nb_visits_human>
+			<nb_actions_human>number</nb_actions_human>
+			<nb_uniq_visitors_human>number</nb_uniq_visitors_human>
+			<nb_users_human>number</nb_users_human>
+			<max_actions_human>number</max_actions_human>
+			<avg_time_on_site_ai_agent>duration_s</avg_time_on_site_ai_agent>
+			<nb_actions_per_visit_ai_agent>number</nb_actions_per_visit_ai_agent>
+			<bounce_rate_ai_agent>percent</bounce_rate_ai_agent>
+			<avg_time_on_site_human>duration_s</avg_time_on_site_human>
+			<nb_actions_per_visit_human>number</nb_actions_per_visit_human>
+			<bounce_rate_human>percent</bounce_rate_human>
+		</metricTypes>
+		
+		
+		<uniqueId>AIAgents_get</uniqueId>
 	</row>
 	<row>
 		<category>UI Framework</category>
@@ -3242,7 +3785,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -3284,7 +3827,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -3327,7 +3870,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -3370,7 +3913,7 @@
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<nb_actions_per_visit>Actions per Visit</nb_actions_per_visit>
@@ -3407,10 +3950,13 @@
 			<nb_uniq_outlinks>Unique Outlinks</nb_uniq_outlinks>
 			<nb_searches>Searches</nb_searches>
 			<nb_keywords>Unique Keywords</nb_keywords>
+			<hits>Hits</hits>
 			<Referrers_visitorsFromSearchEngines>Visitors from Search Engines</Referrers_visitorsFromSearchEngines>
 			<Referrers_visitorsFromSearchEngines_percent>Percent of Visitors from Search Engines</Referrers_visitorsFromSearchEngines_percent>
 			<Referrers_visitorsFromSocialNetworks>Visitors from Social Networks</Referrers_visitorsFromSocialNetworks>
 			<Referrers_visitorsFromSocialNetworks_percent>Percent of Visitors from Social Networks</Referrers_visitorsFromSocialNetworks_percent>
+			<Referrers_visitorsFromAIAssistants>Visitors from AI Assistants</Referrers_visitorsFromAIAssistants>
+			<Referrers_visitorsFromAIAssistants_percent>Percent of Visitors from AI Assistants</Referrers_visitorsFromAIAssistants_percent>
 			<Referrers_visitorsFromDirectEntry>Visitors from Direct Entry</Referrers_visitorsFromDirectEntry>
 			<Referrers_visitorsFromDirectEntry_percent>Percent of Visitors from Direct Entry</Referrers_visitorsFromDirectEntry_percent>
 			<Referrers_visitorsFromWebsites>Visitors from Websites</Referrers_visitorsFromWebsites>
@@ -3419,9 +3965,11 @@
 			<Referrers_visitorsFromCampaigns_percent>Percent of Visitors from Campaigns</Referrers_visitorsFromCampaigns_percent>
 			<Referrers_distinctSearchEngines>Distinct search engines</Referrers_distinctSearchEngines>
 			<Referrers_distinctSocialNetworks>Distinct social networks</Referrers_distinctSocialNetworks>
+			<Referrers_distinctAIAssistants>Distinct AI assistants</Referrers_distinctAIAssistants>
 			<Referrers_distinctWebsites>Distinct websites</Referrers_distinctWebsites>
 			<Referrers_distinctKeywords>Distinct keywords</Referrers_distinctKeywords>
 			<Referrers_distinctCampaigns>Distinct campaigns</Referrers_distinctCampaigns>
+			<Referrers_distinctWebsitesUrls>Distinct website URLs</Referrers_distinctWebsitesUrls>
 			<nb_conversions>Conversions</nb_conversions>
 			<nb_visits_converted>Visits with Conversions</nb_visits_converted>
 			<revenue>Revenue</revenue>
@@ -3447,6 +3995,23 @@
 			<avg_time_dom_completion>Avg. DOM completion time</avg_time_dom_completion>
 			<avg_time_on_load>Avg. on load time</avg_time_on_load>
 			<avg_page_load_time>Avg. page load time</avg_page_load_time>
+			<nb_visits_ai_agent>AI Agent Visits</nb_visits_ai_agent>
+			<nb_actions_ai_agent>Actions by AI Agent Visits</nb_actions_ai_agent>
+			<nb_uniq_visitors_ai_agent>Unique AI Agent Visitors</nb_uniq_visitors_ai_agent>
+			<nb_users_ai_agent>AI Agent Users</nb_users_ai_agent>
+			<max_actions_ai_agent>Maximum Actions in AI Agent Visit</max_actions_ai_agent>
+			<nb_visits_human>Human Visits</nb_visits_human>
+			<nb_actions_human>Actions by Human Visits</nb_actions_human>
+			<nb_uniq_visitors_human>Unique Human Visitors</nb_uniq_visitors_human>
+			<nb_users_human>Human Users</nb_users_human>
+			<max_actions_human>Maximum Actions in one Human Visit</max_actions_human>
+			<BotTracking_AIChatbotsRequests>Requests</BotTracking_AIChatbotsRequests>
+			<BotTracking_AIChatbotsAcquiredVisits>Acquired visits</BotTracking_AIChatbotsAcquiredVisits>
+			<BotTracking_AIChatbotsUniquePageUrls>Unique page URLs</BotTracking_AIChatbotsUniquePageUrls>
+			<BotTracking_AIChatbotsNotFoundRequests>Not found requests</BotTracking_AIChatbotsNotFoundRequests>
+			<BotTracking_AIChatbotsUniqueChatbots>Unique AI chatbots</BotTracking_AIChatbotsUniqueChatbots>
+			<BotTracking_AIChatbotsUniqueDocumentUrls>Unique document URLs</BotTracking_AIChatbotsUniqueDocumentUrls>
+			<BotTracking_AIChatbotsServerErrorRequests>Server error (5xx) requests</BotTracking_AIChatbotsServerErrorRequests>
 			<nb_total_overall_bandwidth>Bytes transferred overall</nb_total_overall_bandwidth>
 			<nb_total_pageview_bandwidth>Bytes transferred pageviews</nb_total_pageview_bandwidth>
 			<nb_total_download_bandwidth>Bytes transferred downloads</nb_total_download_bandwidth>
@@ -3459,6 +4024,8 @@
 			<nb_outlinks>The number of times this link was clicked.</nb_outlinks>
 			<nb_uniq_outlinks>The number of visits that involved a click on this link. If a link was clicked multiple times during one visit, it is only counted once.</nb_uniq_outlinks>
 			<nb_searches>The number of visits that searched for this keyword on your website's search engine.</nb_searches>
+			<hits>The total count of all interactions recorded on your website, including page views, link clicks, downloads, and events.</hits>
+			<nb_visits_converted>Number of visits where at least one goal was successfully converted.</nb_visits_converted>
 			<nb_uniq_visitors>The number of unduplicated visitors coming to your website. Every user is only counted once, even if they visit the website multiple times a day.</nb_uniq_visitors>
 			<nb_visits>If a visitor comes to your website for the first time or if they visit a page more than 30 minutes after their last page view, this will be recorded as a new visit.</nb_visits>
 			<nb_users>The number of users logged in your website. It is the number of unique active users that have a User ID set (via the Tracking code function 'setUserId').</nb_users>
@@ -3470,11 +4037,19 @@
 			<avg_time_dom_completion>Average time (in seconds) it takes for the browser to load media and execute any Javascript code listening for the DOMContentLoaded event after the webpage was loaded and the user can already interact with it.</avg_time_dom_completion>
 			<avg_time_on_load>Average time (in seconds) it takes the browser to execute Javascript code waiting for the window.load event. This event is triggered once the DOM has completely rendered.</avg_time_on_load>
 			<avg_page_load_time>Average time (in seconds) it takes from requesting a page until the page is fully rendered within the browser</avg_page_load_time>
+			<BotTracking_AIChatbotsRequests>Total number of bot requests recorded during the selected period. Includes both page and document URLs.</BotTracking_AIChatbotsRequests>
+			<BotTracking_AIChatbotsAcquiredVisits>Visits that started after someone clicked from an AI chatbot (Referrers → AI Assistants).</BotTracking_AIChatbotsAcquiredVisits>
+			<BotTracking_AIChatbotsUniquePageUrls>Distinct page URLs requested by AI chatbots.</BotTracking_AIChatbotsUniquePageUrls>
+			<BotTracking_AIChatbotsNotFoundRequests>Number of bot requests that returned an HTTP 404 or 410 response, including document URLs.</BotTracking_AIChatbotsNotFoundRequests>
+			<BotTracking_AIChatbotsUniqueChatbots>AI chatbot user agents detected during the selected period.</BotTracking_AIChatbotsUniqueChatbots>
+			<BotTracking_AIChatbotsUniqueDocumentUrls>Distinct download or document URLs requested by AI chatbots.</BotTracking_AIChatbotsUniqueDocumentUrls>
+			<BotTracking_AIChatbotsServerErrorRequests>Number of bot requests that returned an HTTP 5xx response, including document URLs.</BotTracking_AIChatbotsServerErrorRequests>
 			<avg_time_generation>The average time it took to generate the page. This metric includes the time it took the server to generate the web page, plus the time it took for the visitor to download the response from the server. A lower 'Avg. generation time' means a faster website for your visitors!</avg_time_generation>
-			<conversion_rate>The percentage of visits that triggered a goal conversion.</conversion_rate>
+			<conversion_rate>The percentage of visits that triggered a conversion. The conversion rate is calculated using the number of visits that converted at least one goal. Visits converting multiple goals are only counted once in the conversion rate.</conversion_rate>
 			<bounce_rate>The percentage of visits that only had a single pageview. This means, that the visitor left the website directly from the entrance page.</bounce_rate>
 			<nb_actions_per_visit>The average number of actions (page views, site searches, downloads or outlinks) that were performed during the visits.</nb_actions_per_visit>
 			<avg_time_on_site>The average duration of a visit.</avg_time_on_site>
+			<BotTracking_AIChatbotsClickThroughRate>Share of AI chatbot requests that resulted in acquired visits (acquired visits ÷ requests).</BotTracking_AIChatbotsClickThroughRate>
 		</metricsDocumentation>
 		<processedMetrics>
 			<avg_time_generation>Avg. generation time</avg_time_generation>
@@ -3495,6 +4070,13 @@
 			<avg_time_dom_completion>Avg. DOM completion time</avg_time_dom_completion>
 			<avg_time_on_load>Avg. on load time</avg_time_on_load>
 			<avg_page_load_time>Avg. page load time</avg_page_load_time>
+			<avg_time_on_site_ai_agent>Avg. Duration of an AI Agent Visit (in sec)</avg_time_on_site_ai_agent>
+			<nb_actions_per_visit_ai_agent>Avg. Actions per AI Agent Visit</nb_actions_per_visit_ai_agent>
+			<bounce_rate_ai_agent>Bounce Rate for AI Agent Visits</bounce_rate_ai_agent>
+			<avg_time_on_site_human>Avg. Duration of a Human Visit (in sec)</avg_time_on_site_human>
+			<nb_actions_per_visit_human>Avg. Actions per Human Visit</nb_actions_per_visit_human>
+			<bounce_rate_human>Bounce Rate for Human Visits</bounce_rate_human>
+			<BotTracking_AIChatbotsClickThroughRate>Click-through rate</BotTracking_AIChatbotsClickThroughRate>
 			<nb_total_download_bandwidth>Bytes transferred downloads</nb_total_download_bandwidth>
 			<nb_total_pageview_bandwidth>Bytes transferred pageviews</nb_total_pageview_bandwidth>
 			<nb_total_overall_bandwidth>Bytes transferred overall</nb_total_overall_bandwidth>
@@ -3508,10 +4090,13 @@
 			<nb_uniq_outlinks>number</nb_uniq_outlinks>
 			<nb_searches>number</nb_searches>
 			<nb_keywords>number</nb_keywords>
+			<hits>number</hits>
 			<Referrers_visitorsFromSearchEngines>number</Referrers_visitorsFromSearchEngines>
 			<Referrers_visitorsFromSearchEngines_percent>percent</Referrers_visitorsFromSearchEngines_percent>
 			<Referrers_visitorsFromSocialNetworks>number</Referrers_visitorsFromSocialNetworks>
 			<Referrers_visitorsFromSocialNetworks_percent>percent</Referrers_visitorsFromSocialNetworks_percent>
+			<Referrers_visitorsFromAIAssistants>number</Referrers_visitorsFromAIAssistants>
+			<Referrers_visitorsFromAIAssistants_percent>percent</Referrers_visitorsFromAIAssistants_percent>
 			<Referrers_visitorsFromDirectEntry>number</Referrers_visitorsFromDirectEntry>
 			<Referrers_visitorsFromDirectEntry_percent>percent</Referrers_visitorsFromDirectEntry_percent>
 			<Referrers_visitorsFromWebsites>number</Referrers_visitorsFromWebsites>
@@ -3520,9 +4105,11 @@
 			<Referrers_visitorsFromCampaigns_percent>percent</Referrers_visitorsFromCampaigns_percent>
 			<Referrers_distinctSearchEngines>number</Referrers_distinctSearchEngines>
 			<Referrers_distinctSocialNetworks>number</Referrers_distinctSocialNetworks>
+			<Referrers_distinctAIAssistants>number</Referrers_distinctAIAssistants>
 			<Referrers_distinctWebsites>number</Referrers_distinctWebsites>
 			<Referrers_distinctKeywords>number</Referrers_distinctKeywords>
 			<Referrers_distinctCampaigns>number</Referrers_distinctCampaigns>
+			<Referrers_distinctWebsitesUrls>number</Referrers_distinctWebsitesUrls>
 			<nb_conversions>number</nb_conversions>
 			<nb_visits_converted>number</nb_visits_converted>
 			<revenue>money</revenue>
@@ -3548,6 +4135,23 @@
 			<avg_time_dom_completion>duration_s</avg_time_dom_completion>
 			<avg_time_on_load>duration_s</avg_time_on_load>
 			<avg_page_load_time>duration_s</avg_page_load_time>
+			<nb_visits_ai_agent>number</nb_visits_ai_agent>
+			<nb_actions_ai_agent>number</nb_actions_ai_agent>
+			<nb_uniq_visitors_ai_agent>number</nb_uniq_visitors_ai_agent>
+			<nb_users_ai_agent>number</nb_users_ai_agent>
+			<max_actions_ai_agent>number</max_actions_ai_agent>
+			<nb_visits_human>number</nb_visits_human>
+			<nb_actions_human>number</nb_actions_human>
+			<nb_uniq_visitors_human>number</nb_uniq_visitors_human>
+			<nb_users_human>number</nb_users_human>
+			<max_actions_human>number</max_actions_human>
+			<BotTracking_AIChatbotsRequests>number</BotTracking_AIChatbotsRequests>
+			<BotTracking_AIChatbotsAcquiredVisits>number</BotTracking_AIChatbotsAcquiredVisits>
+			<BotTracking_AIChatbotsUniquePageUrls>number</BotTracking_AIChatbotsUniquePageUrls>
+			<BotTracking_AIChatbotsNotFoundRequests>number</BotTracking_AIChatbotsNotFoundRequests>
+			<BotTracking_AIChatbotsUniqueChatbots>number</BotTracking_AIChatbotsUniqueChatbots>
+			<BotTracking_AIChatbotsUniqueDocumentUrls>number</BotTracking_AIChatbotsUniqueDocumentUrls>
+			<BotTracking_AIChatbotsServerErrorRequests>number</BotTracking_AIChatbotsServerErrorRequests>
 			<nb_total_overall_bandwidth>number</nb_total_overall_bandwidth>
 			<nb_total_pageview_bandwidth>number</nb_total_pageview_bandwidth>
 			<nb_total_download_bandwidth>number</nb_total_download_bandwidth>
@@ -3562,6 +4166,13 @@
 			<avg_time_on_site_new>duration_s</avg_time_on_site_new>
 			<nb_actions_per_visit_new>number</nb_actions_per_visit_new>
 			<bounce_rate_new>percent</bounce_rate_new>
+			<avg_time_on_site_ai_agent>duration_s</avg_time_on_site_ai_agent>
+			<nb_actions_per_visit_ai_agent>number</nb_actions_per_visit_ai_agent>
+			<bounce_rate_ai_agent>percent</bounce_rate_ai_agent>
+			<avg_time_on_site_human>duration_s</avg_time_on_site_human>
+			<nb_actions_per_visit_human>number</nb_actions_per_visit_human>
+			<bounce_rate_human>percent</bounce_rate_human>
+			<BotTracking_AIChatbotsClickThroughRate>percent</BotTracking_AIChatbotsClickThroughRate>
 		</metricTypes>
 		
 		
