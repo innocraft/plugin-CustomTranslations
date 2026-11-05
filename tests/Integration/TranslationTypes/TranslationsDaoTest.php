@@ -56,7 +56,8 @@ class TranslationsDaoTest extends IntegrationTestCase
 
     public function test_checkTypeExists_invalidId()
     {
-        $this->expectException(\Exception::class);
+        $this->expectException(\Piwik\Http\BadRequestException::class);
+        $this->expectExceptionCode(400);
         $this->expectExceptionMessage('General_ValidatorErrorXNotWhitelisted');
         $this->provider->checkTypeExists('foo');
     }

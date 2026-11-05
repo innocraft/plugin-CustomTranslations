@@ -1,7 +1,7 @@
 ## Changelog
 
 ### 6.0.1
-- API requests with an invalid language code or translations that aren't a list now return HTTP 400 instead of HTTP 200 with an error message
+- API requests with an invalid translation type, an invalid language code or translations that aren't a list now return HTTP 400 instead of HTTP 200 with an error message
 
 ### 6.0.0 - 2026-08-11
 

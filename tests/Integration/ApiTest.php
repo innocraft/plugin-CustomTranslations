@@ -57,7 +57,8 @@ class ApiTest extends IntegrationTestCase
 
     public function test_setTranslations_validatesType()
     {
-        $this->expectException(\Exception::class);
+        $this->expectException(\Piwik\Http\BadRequestException::class);
+        $this->expectExceptionCode(400);
         $this->expectExceptionMessage('CustomTranslations_TranslationType: General_ValidatorErrorXNotWhitelisted');
         $this->api->setTranslations('invalidtype', 'en', array('baz' => 'bazz'));
     }
@@ -144,7 +145,8 @@ class ApiTest extends IntegrationTestCase
 
     public function test_getTranslationsForType_validatesType()
     {
-        $this->expectException(\Exception::class);
+        $this->expectException(\Piwik\Http\BadRequestException::class);
+        $this->expectExceptionCode(400);
         $this->expectExceptionMessage('CustomTranslations_TranslationType: General_ValidatorErrorXNotWhitelisted');
         $this->api->getTranslationsForType('invalidtype', 'en');
     }
