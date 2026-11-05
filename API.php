@@ -10,6 +10,7 @@
 namespace Piwik\Plugins\CustomTranslations;
 
 use Piwik\API\Request;
+use Piwik\Http\BadRequestException;
 use Piwik\Piwik;
 use Piwik\Plugins\CustomTranslations\Dao\TranslationsDao;
 use Piwik\Plugins\CustomTranslations\TranslationTypes\TranslationType;
@@ -80,7 +81,7 @@ class API extends \Piwik\Plugin\API
         $languageAvailable = Request::processRequest('LanguagesManager.isLanguageAvailable', $params);
 
         if (!$languageAvailable) {
-            throw new \Exception('Invalid language code');
+            throw new BadRequestException('Invalid language code');
         }
     }
 

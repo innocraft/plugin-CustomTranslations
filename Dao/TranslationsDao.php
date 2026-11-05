@@ -10,6 +10,7 @@
 namespace Piwik\Plugins\CustomTranslations\Dao;
 
 use Piwik\Common;
+use Piwik\Http\BadRequestException;
 use Piwik\Option;
 
 class TranslationsDao
@@ -41,7 +42,7 @@ class TranslationsDao
             Option::delete($this->makeId($typeId, $lang));
         } else {
             if (!is_array($values)) {
-                throw new \Exception('$translations needs to be an array');
+                throw new BadRequestException('$translations needs to be an array');
             }
 
             $this->validateTranslationValues($values);
