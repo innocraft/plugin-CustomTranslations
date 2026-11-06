@@ -57,14 +57,16 @@ class ApiTest extends IntegrationTestCase
 
     public function test_setTranslations_validatesType()
     {
-        $this->expectException(\Exception::class);
+        $this->expectException(\Piwik\Http\BadRequestException::class);
+        $this->expectExceptionCode(400);
         $this->expectExceptionMessage('CustomTranslations_TranslationType: General_ValidatorErrorXNotWhitelisted');
         $this->api->setTranslations('invalidtype', 'en', array('baz' => 'bazz'));
     }
 
     public function test_setTranslations_validatesLanguage()
     {
-        $this->expectException(\Exception::class);
+        $this->expectException(\Piwik\Http\BadRequestException::class);
+        $this->expectExceptionCode(400);
         $this->expectExceptionMessage('Invalid language code');
         $this->api->setTranslations(DashboardEntity::ID, 'fp', array('baz' => 'bazz'));
     }
@@ -82,6 +84,23 @@ class ApiTest extends IntegrationTestCase
         $values = $this->api->getTranslationsForType(EventLabel::ID, 'fr');
         $this->assertSame(array('bar' => 'baz'), $values);
         $this->assertSame(array(), $this->api->getTranslationsForType(EventLabel::ID, 'de'));
+    }
+
+    /**
+     * @dataProvider getNonArrayTranslations
+     */
+    public function testSetTranslationsRejectsNonArrayTranslations($translations)
+    {
+        $this->expectException(\Piwik\Http\BadRequestException::class);
+        $this->expectExceptionCode(400);
+        $this->expectExceptionMessage('$translations needs to be an array');
+
+        $this->api->setTranslations(DashboardEntity::ID, 'en', $translations);
+    }
+
+    public static function getNonArrayTranslations(): array
+    {
+        return [['foo'], ['0']];
     }
 
     public function test_setTranslations_rejectsHtmlValues()
@@ -143,14 +162,16 @@ class ApiTest extends IntegrationTestCase
 
     public function test_getTranslationsForType_validatesType()
     {
-        $this->expectException(\Exception::class);
+        $this->expectException(\Piwik\Http\BadRequestException::class);
+        $this->expectExceptionCode(400);
         $this->expectExceptionMessage('CustomTranslations_TranslationType: General_ValidatorErrorXNotWhitelisted');
         $this->api->getTranslationsForType('invalidtype', 'en');
     }
 
     public function test_getTranslationsForType_validatesLanguage()
     {
-        $this->expectException(\Exception::class);
+        $this->expectException(\Piwik\Http\BadRequestException::class);
+        $this->expectExceptionCode(400);
         $this->expectExceptionMessage('Invalid language code');
         $this->api->getTranslationsForType(DashboardEntity::ID, 'fp');
     }
@@ -166,7 +187,7 @@ class ApiTest extends IntegrationTestCase
     public function provideContainerConfig()
     {
         return array(
-            'Piwik\Access' => new FakeAccess()
+            'Piwik\Access' => new FakeAccess(),
         );
     }
 }

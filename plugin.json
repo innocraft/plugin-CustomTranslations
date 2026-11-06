@@ -1,7 +1,7 @@
 {
   "name": "CustomTranslations",
   "description": "Translate entities and tracked values into different languages. For example Custom dimensions, dashboard names, custom report names, event values, ...",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "theme": false,
   "require": {
     "matomo": ">=6.0.0-b1,<7.0.0-b1"

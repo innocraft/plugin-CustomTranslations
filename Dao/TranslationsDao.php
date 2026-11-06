@@ -68,6 +68,10 @@ class TranslationsDao
         }
     }
 
+    /**
+     * Throws a plain \Exception rather than a BadRequestException on purpose: the translation editor only
+     * shows this message for an HTTP 200 error response, and a 4xx would replace it with a generic error.
+     */
     private function validateAllowedHtml($value)
     {
         if (!preg_match_all(self::HTML_TAG_START_PATTERN, $value, $matches)) {

@@ -10,10 +10,12 @@
 namespace Piwik\Plugins\CustomTranslations;
 
 use Piwik\API\Request;
+use Piwik\Http\BadRequestException;
 use Piwik\Piwik;
 use Piwik\Plugins\CustomTranslations\Dao\TranslationsDao;
 use Piwik\Plugins\CustomTranslations\TranslationTypes\TranslationType;
 use Piwik\Plugins\CustomTranslations\TranslationTypes\TranslationTypeProvider;
+use Piwik\Validators\Exception as ValidatorException;
 
 /**
  * Exposes Super User endpoints for listing translatable entities and storing custom label overrides.
@@ -51,8 +53,12 @@ class API extends \Piwik\Plugin\API
     {
         Piwik::checkUserHasSuperUserAccess();
 
-        $this->provider->checkTypeExists($idType);
+        $this->checkTypeExists($idType);
         $this->checkLanguageAvailable($languageCode);
+
+        if (!is_array($translations)) {
+            throw new BadRequestException('$translations needs to be an array');
+        }
 
         $this->storage->set($idType, $languageCode, $translations);
     }
@@ -68,10 +74,19 @@ class API extends \Piwik\Plugin\API
     {
         Piwik::checkUserHasSuperUserAccess();
 
-        $this->provider->checkTypeExists($idType);
+        $this->checkTypeExists($idType);
         $this->checkLanguageAvailable($languageCode);
 
         return $this->storage->get($idType, $languageCode);
+    }
+
+    private function checkTypeExists($idType): void
+    {
+        try {
+            $this->provider->checkTypeExists($idType);
+        } catch (ValidatorException $e) {
+            throw new BadRequestException($e->getMessage());
+        }
     }
 
     private function checkLanguageAvailable($languageCode)
@@ -80,7 +95,7 @@ class API extends \Piwik\Plugin\API
         $languageAvailable = Request::processRequest('LanguagesManager.isLanguageAvailable', $params);
 
         if (!$languageAvailable) {
-            throw new \Exception('Invalid language code');
+            throw new BadRequestException('Invalid language code');
         }
     }
 
