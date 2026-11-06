@@ -86,6 +86,23 @@ class ApiTest extends IntegrationTestCase
         $this->assertSame(array(), $this->api->getTranslationsForType(EventLabel::ID, 'de'));
     }
 
+    /**
+     * @dataProvider getNonArrayTranslations
+     */
+    public function testSetTranslationsRejectsNonArrayTranslations($translations)
+    {
+        $this->expectException(\Piwik\Http\BadRequestException::class);
+        $this->expectExceptionCode(400);
+        $this->expectExceptionMessage('$translations needs to be an array');
+
+        $this->api->setTranslations(DashboardEntity::ID, 'en', $translations);
+    }
+
+    public static function getNonArrayTranslations(): array
+    {
+        return [['foo'], ['0']];
+    }
+
     public function test_setTranslations_rejectsHtmlValues()
     {
         $this->expectException(\Exception::class);

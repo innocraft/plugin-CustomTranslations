@@ -114,8 +114,7 @@ class TranslationsDaoTest extends IntegrationTestCase
 
     public function test_set_throwsExceptionWhenInvalidValues()
     {
-        $this->expectException(\Piwik\Http\BadRequestException::class);
-        $this->expectExceptionCode(400);
+        $this->expectException(\Exception::class);
         $this->expectExceptionMessage('$translations needs to be an array');
         $this->dao->set($this->typeId, 'nz', 'test');
     }

@@ -18,3 +18,10 @@ parameters:
         - Piwik\ViewDataTable\Config
     scanDirectories:
         - ../../
+    ignoreErrors:
+        # setTranslations() documents `translations` as an array, but an HTTP request can pass a string,
+        # which this guard turns into a 400.
+        -
+            identifier: function.alreadyNarrowedType
+            path: API.php
+            count: 1

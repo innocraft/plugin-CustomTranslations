@@ -10,7 +10,6 @@
 namespace Piwik\Plugins\CustomTranslations\Dao;
 
 use Piwik\Common;
-use Piwik\Http\BadRequestException;
 use Piwik\Option;
 
 class TranslationsDao
@@ -42,7 +41,7 @@ class TranslationsDao
             Option::delete($this->makeId($typeId, $lang));
         } else {
             if (!is_array($values)) {
-                throw new BadRequestException('$translations needs to be an array');
+                throw new \Exception('$translations needs to be an array');
             }
 
             $this->validateTranslationValues($values);
@@ -69,6 +68,10 @@ class TranslationsDao
         }
     }
 
+    /**
+     * Throws a plain \Exception rather than a BadRequestException on purpose: the translation editor only
+     * shows this message for an HTTP 200 error response, and a 4xx would replace it with a generic error.
+     */
     private function validateAllowedHtml($value)
     {
         if (!preg_match_all(self::HTML_TAG_START_PATTERN, $value, $matches)) {

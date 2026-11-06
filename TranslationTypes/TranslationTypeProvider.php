@@ -10,11 +10,9 @@
 namespace Piwik\Plugins\CustomTranslations\TranslationTypes;
 
 use Piwik\Container\StaticContainer;
-use Piwik\Http\BadRequestException;
 use Piwik\Piwik;
 use Piwik\Plugin\Manager;
 use Piwik\Validators\BaseValidator;
-use Piwik\Validators\Exception as ValidatorException;
 use Piwik\Validators\WhitelistedValue;
 
 class TranslationTypeProvider
@@ -25,11 +23,7 @@ class TranslationTypeProvider
     {
         $types = array_keys($this->getAllTranslationTypes());
         $params = [new WhitelistedValue($types)];
-        try {
-            BaseValidator::check(Piwik::translate('CustomTranslations_TranslationType'), $idType, $params);
-        } catch (ValidatorException $e) {
-            throw new BadRequestException($e->getMessage());
-        }
+        BaseValidator::check(Piwik::translate('CustomTranslations_TranslationType'), $idType, $params);
     }
 
     /**
