@@ -1,1 +1,19 @@
-{}
+{
+    "CustomTranslations": {
+        "CustomDimensionDescription": "Traduceți numele entităților de tip dimensiune personalizată",
+        "CustomDimensionName": "Nume dimensiune personalizată",
+        "CustomDimensionValue": "Valoare dimensiune personalizată",
+        "CustomDimensionValueDescription": "Traduceți numele valorilor de evenimente urmărite",
+        "CustomReportDescription": "Traduceți numele entităților de tip raport personalizat",
+        "CustomReportName": "Nume raport personalizat",
+        "CustomTranslations": "Traduceri personalizate",
+        "DashboardDescription": "Traduceți numele entităților de tip panou de control",
+        "DashboardName": "Nume panou de control",
+        "EventValue": "Valoare eveniment",
+        "EventValueDescription": "Traduceți numele valorilor de evenimente urmărite",
+        "LanguageInlineHelp": "Selectați limba în care doriți să traduceți.",
+        "PluginDescription": "Traduceți entitățile și valorile din rapoarte în diferite limbi",
+        "Translation": "Traducere",
+        "TranslationType": "Tip de traducere"
+    }
+}
