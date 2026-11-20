@@ -4,9 +4,15 @@
         "CustomDimensionName": "自定义维度名称",
         "CustomDimensionValue": "自定义维度值",
         "CustomDimensionValueDescription": "翻译跟踪事件值的名称",
+        "CustomReportDescription": "翻译自定义报告实体的名称",
         "CustomReportName": "自定义报告名称",
+        "CustomTranslations": "自定义翻译",
+        "DashboardDescription": "翻译报表面板实体的名称",
+        "DashboardName": "报表面板名称",
         "EventValue": "事件值",
         "EventValueDescription": "翻译跟踪事件值的名称",
+        "LanguageInlineHelp": "选择您要翻译的语言。",
+        "PluginDescription": "将实体和报告值翻译成不同的语言",
         "Translation": "翻译",
         "TranslationType": "翻译类型"
     }
