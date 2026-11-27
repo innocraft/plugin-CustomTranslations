@@ -1,1 +1,18 @@
-{}
+{
+    "CustomTranslations": {
+        "CustomDimensionDescription": "Oversæt navnet på brugerdefinerede dimensionsenheder",
+        "CustomDimensionName": "Navn på brugerdefineret dimension",
+        "CustomDimensionValue": "Værdi for brugerdefineret dimension",
+        "CustomReportDescription": "Oversæt navnet på brugerdefinerede rapportenheder",
+        "CustomReportName": "Navn på brugerdefineret rapport",
+        "CustomTranslations": "Brugerdefinerede oversættelser",
+        "DashboardDescription": "Oversæt navnet på kontrolpanelenheder",
+        "DashboardName": "Kontrolpanelnavn",
+        "EventValue": "Hændelsesværdi",
+        "EventValueDescription": "Oversæt navnet på registrerede hændelsesværdier",
+        "LanguageInlineHelp": "Vælg det sprog, du vil oversætte.",
+        "PluginDescription": "Oversæt enheder og rapportværdier til forskellige sprog",
+        "Translation": "Oversættelse",
+        "TranslationType": "Oversættelsestype"
+    }
+}
